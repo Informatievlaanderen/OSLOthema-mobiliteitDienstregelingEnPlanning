@@ -1,0 +1,18 @@
+[
+{
+  "name": "mijn-applicatieprofiel-ap",
+  "type": "ap",
+  "eap": "MijnApplicatieprofiel-AP.eap",
+  "diagram": "MijnApplicatieprofiel",
+  "template": "mijn-applicatieprofiel-ap.j2",
+  "title": "Mijn Applicatieprofiel",
+  "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+  "publication-date": "2020-01-31",
+  "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+  "contributors-file": "stakeholders.csv",
+  "contributors-column": "MijnKolom",
+  "site": "site-skeleton/mijn-applicatieprofiel-ap",
+  "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-mijnThema/issues",
+  "standaardregisterurl": "https://data.vlaanderen.be/standaarden/TODO/CORRECT-URL/index.html"
+}
+]
