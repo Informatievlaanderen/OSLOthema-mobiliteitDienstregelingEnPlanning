@@ -1,0 +1,18 @@
+[
+{
+  "name": "timetables-ap",
+  "type": "ap",
+  "eap": "OSLO-DienstregelingEnPlanning-AP.EAP",
+  "diagram": "Timetables",
+  "template": "mijn-applicatieprofiel-ap.j2",
+  "title": "OSLO-Timetables (Applicatieprofiel)",
+  "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+  "publication-date": "2021-03-04",
+  "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+  "contributors-file": "stakeholders.csv",
+  "contributors-column": "MijnKolom",
+  "site": "site-skeleton/timetables-ap",
+  "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-mobiliteitDienstregelingEnPlanning/issues",
+  "standaardregisterurl": "https://data.vlaanderen.be/standaarden/"
+}
+]
