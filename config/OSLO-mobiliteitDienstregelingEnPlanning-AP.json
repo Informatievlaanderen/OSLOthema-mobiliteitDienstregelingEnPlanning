@@ -21,6 +21,13 @@
       "title": "OSLO-Timetables (Applicationprofile)",
       "translationjson":"timetables-ap_en.json",
       "mergefile":"timetables-ap_en_merged.jsonld"
+    },
+    {
+      "language":"nl",
+      "template":"mijn-applicatieprofiel-ap.j2",
+      "title": "OSLO-Tijdstabel (Applicatieprofiel)",
+      "translationjson":"timetables-ap_nl.json",
+      "mergefile":"timetables-ap_nl_merged.jsonld"
     }
   ]
 }
