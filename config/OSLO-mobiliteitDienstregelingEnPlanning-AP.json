@@ -13,6 +13,15 @@
   "contributors-column": "MijnKolom",
   "site": "site-skeleton/timetables-ap",
   "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-mobiliteitDienstregelingEnPlanning/issues",
-  "standaardregisterurl": "https://data.vlaanderen.be/standaarden/"
+  "standaardregisterurl": "https://data.vlaanderen.be/standaarden/",
+  "translation": [
+    {
+      "language":"en",
+      "template":"mijn-applicatieprofiel-ap_en.j2",
+      "title": "OSLO-Timetables (Applicationprofile)",
+      "translationjson":"timetables-ap_en.json",
+      "mergefile":"timetables-ap_en_merged.jsonld"
+    }
+  ]
 }
 ]
