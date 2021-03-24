@@ -1,0 +1,44 @@
+{
+  "naam": "Vocabularium Mobiliteit: Dienstregeling en Planning",
+  "rapport" : "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/applicatieprofiel/mobiliteit-dienstregeling-en-planning/dienstregeling/ontwerpstandaard/2021-03-04/all-timetables-ap.jsonld",
+  "verantwoordelijke_organisatie": "De Lijn",
+  "identificator_organisatie": "http://data.vlaanderen.be/id/organisatie/OVO000100",
+  "publicatiedatum": "TBD",
+  "type_toepassing": "TBD",
+  "categorie": "Vocabularium",
+  "beschrijving" : "voc-dienstregeling-en-planning.md",
+  "specificatiedocument": [
+  ],
+  "documentatie": [],
+  "charter": [
+    {
+      "naam": "Werkgroep Charter OSLO Mobiliteit - Dienstregeling en Planning",
+      "waarde": "Charter - OSLO Mobiliteit - Dienstregeling en Planning.docx"
+    }
+  ],
+  "verslagen": [
+    {
+      "naam" : "Verslag business werkgroep - 11 januari 2021",
+      "waarde" : "20210111 - OSLO Mobiliteit - Dienstregeling en Planning - Business Werkgroep - Verslag.pdf"
+    },
+    {
+      "naam" : "Verslag thematische werkgroep 1 - 8 februari 2021",
+      "waarde" : "20210208 - OSLO Mobiliteit - Dienstregeling en Planning - Thematische Werkgroep 1 - Presentatie.pdf"
+    }
+  ],
+  "presentaties": [
+    {
+      "naam" : "Presentatie business werkgroep - 11 januari 2021",
+      "waarde" : "20210111 - OSLO Mobiliteit - Dienstregeling en Planning - Business Werkgroep - Presentatie.pdf"
+    },
+    {
+      "naam" : "Presentatie thematische werkgroep 1 - 8 februari 2021",
+      "waarde" : "20210208 - OSLO Mobiliteit - Dienstregeling en Planning - Thematische Werkgroep 1 - Presentatie.pdf"
+    }
+  ],
+  "functioneel_toepassingsgebied": "Semantische standaard voor informatie over dienstregeling- en planningsinformatie",
+  "organisatorisch_werkingsgebied": "alle entiteiten van de Vlaamse overheid",
+  "datum_van_aanmelding": "TBD",
+  "erkenning_werkgroep_datastandaarden": "TBD",
+  "erkenning_stuurgroep": "TBD"
+}

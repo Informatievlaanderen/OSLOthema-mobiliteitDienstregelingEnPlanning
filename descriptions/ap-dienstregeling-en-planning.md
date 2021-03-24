@@ -1,0 +1,9 @@
+Openbaar vervoer in Vlaanderen en België wordt gestructureerd aan de hand van het aanbod (lijnen en haltes), de middellange en korte termijn planning van voertuigen en chauffeurs (respectievelijk, lopen en diensten), de communicatie hiervan aan het grote publiek (dienstregelingen en storingen), en uiteindelijk de realtime en historische uitvoering van de geplande ritten.
+
+Tot vandaag wordt alle informatie hierrond beheerd, verdeeld en gecommuniceerd door De Lijn en haar drie mede-openbaarvervoermaatschappijen (NMBS, MIVB, TEC) in verscheidene al dan niet ad-hoc dataformaten.
+
+De Europese Unie heeft vanuit het ITS-project opdracht gegeven om al deze informatie te structureren in het NeTEx formaat, waarbij elke lidstaat de mogelijkheid krijgt een eigen “profiel” te ontwikkelen waarin haar eigenheden in kunnen worden opgenomen. Voor België heeft De Lijn het voortouw genomen om een profielspecificatie op te stellen, gebaseerd op de EPIP substandaard.
+
+Aangezien deze informatie een belangrijke bouwsteen is binnen het domein van de Vlaamse mobiliteit, willen we deze specificatie tot stand laten komen binnen het OSLO programma, waarbij de nadruk wordt gelegd op de openbaarheid en linkbaarheid van de informatie. De publieke reviews waartegen de specificatie wordt getoetst, borgen de bruikbaarheid en de toegankelijkheid van de informatie voor de Vlaamse overheidsdiensten en burgerinitiatieven rond structurele mobiliteit.
+
+Met het doorlopen van het officiële OSLO traject beogen we het bekomen van een vocabularium rond structurele mobilliteit, en een applicatieprofiel dat de te bouwen EPIP implementatie aan de hand van dit vocabularium vorm geeft.
