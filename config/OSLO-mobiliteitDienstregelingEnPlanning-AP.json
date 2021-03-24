@@ -17,7 +17,7 @@
   "translation": [
     {
       "language":"en",
-      "template":"timetables-ap_en.j2.j2",
+      "template":"timetables-ap_en.j2",
       "title": "NeTEx Belgium: Timetables (application profile)",
       "translationjson":"timetables-ap_en.json",
       "mergefile":"timetables-ap_en_merged.jsonld"
@@ -49,7 +49,7 @@
   "translation": [
     {
       "language":"en",
-      "template":"stopplaces-ap_en.j2.j2",
+      "template":"stopplaces-ap_en.j2",
       "title": "NeTEx Belgium: Stop Places (application profile)",
       "translationjson":"stopplaces-ap_en.json",
       "mergefile":"stopplaces-ap_en_merged.jsonld"
