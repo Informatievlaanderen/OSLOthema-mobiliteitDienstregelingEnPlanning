@@ -17,14 +17,14 @@
   "translation": [
     {
       "language":"en",
-      "template":"timetables-ap_en.j2.j2",
+      "template":"timetables-ap_en.j2",
       "title": "NeTEx Belgium: Timetables (application profile)",
       "translationjson":"timetables-ap_en.json",
       "mergefile":"timetables-ap_en_merged.jsonld"
     },
     {
       "language":"nl",
-      "template":"timetables-ap-nl.j2",
+      "template":"timetables-ap_nl.j2",
       "title": "OSLO Mobiliteit - Dienstregeling en Planning: Tijdstabellen (applicatieprofiel)",
       "translationjson":"timetables-ap_nl.json",
       "mergefile":"timetables-ap_nl_merged.jsonld"
@@ -49,14 +49,14 @@
   "translation": [
     {
       "language":"en",
-      "template":"stopplaces-ap_en.j2.j2",
+      "template":"stopplaces-ap_en.j2",
       "title": "NeTEx Belgium: Stop Places (application profile)",
       "translationjson":"stopplaces-ap_en.json",
       "mergefile":"stopplaces-ap_en_merged.jsonld"
     },
     {
       "language":"nl",
-      "template":"stopplaces-ap-nl.j2",
+      "template":"stopplaces-ap_nl.j2",
       "title": "OSLO Mobiliteit - Dienstregeling en Planning: Stopplaatsen (applicatieprofiel)",
       "translationjson":"stopplaces-ap_nl.json",
       "mergefile":"stopplaces-ap_nl_merged.jsonld"
