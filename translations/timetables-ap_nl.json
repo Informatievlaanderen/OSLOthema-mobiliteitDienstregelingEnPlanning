@@ -1,0 +1,1264 @@
+{
+  "classes": [],
+  "properties": [],
+  "externals": [
+    {
+      "EA-Guid": "{155B734B-568D-43df-9C4B-545626759369}",
+      "name": "GroupOfLines",
+      "label": {
+        "en": "GroupOfLines",
+        "nl": "GROEP VAN LIJNEN"
+      },
+      "definition": {
+        "en": "GroupOfLines can be used to define several kinds of PT networks and sub-networks: what is usually called a public transport network is in fact only a specific GroupOfLines and a Line may belong to several of them.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{510B3284-BA4E-4ce6-8D1F-E55F1D0C6098}",
+      "name": "JourneyPattern",
+      "label": {
+        "en": "JourneyPattern",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "The JourneyPattern model is concerned with the spatial description of services, i.e. spatial aspects of the work of the vehicles. The concerns of this model are different from those of describing the Routes and Lines. The latter are describing schematic paths of vehicles through the road network, whereas JourneyPatterns describe how the work of vehicles is performed. These work patterns describe the sequence of points where\nvehicles stop with specific points being attributed with timing information. \n\nThe working pattern described by a JourneyPattern is usually related to a Route which it covers. Several JourneyPatterns may use the same Route.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{D37BFABC-5966-4d16-89FC-5B4FA5F2DD66}",
+      "name": "Line",
+      "label": {
+        "en": "Line",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "A grouping of Routes that is generally known to the public by a similar name or number.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{6F6926FA-EFCB-4597-AFDC-1F1D318A5482}",
+      "name": "Network",
+      "label": {
+        "en": "Network",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "A Network is a named grouping of Lines under which a Transport network is known.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{C98F5C69-E097-4582-AAA2-9155332B35F2}",
+      "name": "PassengerStopAssignment",
+      "label": {
+        "en": "PassengerStopAssignment",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "A PassengerStopAssignment is the allocation of a ScheduledStopPoint  to a StopPlace.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{26D5DAB9-4B77-476e-B3B2-46441002A3C8}",
+      "name": "Point",
+      "label": {
+        "en": "Point",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "A 0-dimensional node of the network used for the spatial description of the network. Points may be located by a Location in a given LocatingSystem.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{3567592C-EC4A-46b1-B36D-DA99174CA4ED}",
+      "name": "PointInJourneyPattern",
+      "label": {
+        "en": "PointInJourneyPattern",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Each PointInJourneyPattern specifies the visit of a Service to a specific Point in a particular order within the pattern.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{C2FCB590-FFFC-493f-9516-80121EC4491B}",
+      "name": "PointOnRoute",
+      "label": {
+        "en": "PointOnRoute",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "A PointOnRoute indicates the sequence of a RoutePoint within a Route. This intermediate object is required to allow a Route to go several times through the same RoutePoint.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{275B190A-A05F-4f64-A7A2-ECCDCEB35F5F}",
+      "name": "Route",
+      "label": {
+        "en": "Route",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "An ordered list of located Points defining one single path through the road (or rail) network. A Route may pass through the same Point more than once.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{6FE77E26-CD8E-423f-929B-657FD80E5489}",
+      "name": "RouteLink",
+      "label": {
+        "en": "RouteLink",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "A RouteLink is an oriented link between two RoutePoints allowing the definition of a unique path through the network. The same RouteLink may be used in different Routes.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{6EED7F73-6DC0-4d27-94F9-257188DA0E28}",
+      "name": "RoutePoint",
+      "label": {
+        "en": "RoutePoint",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "A RoutePoint is a Point used to define the shape of a Route through the network. The same Point may be used in different Routes using a PointOnRoute.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{5D4210A5-0938-4d98-8232-DBD6597B3C00}",
+      "name": "ScheduledStopPoint",
+      "label": {
+        "en": "ScheduledStopPoint",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "A Point where passengers can board or alight from vehicles",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{B8760FF0-D987-4cd3-A2F1-E435517EE8E0}",
+      "name": "ServiceJourney",
+      "label": {
+        "en": "ServiceJourney",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "A ServiceJourney is a VehicleJourney on which passengers will be allowed to board or alight from vehicles at stops.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{6FB184C0-E366-45db-95FD-A8607D6A0041}",
+      "name": "ServiceJourneyLink",
+      "label": {
+        "en": "ServiceJourneyLink",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "The connection between two consecutive ScheduledStopPoints in a ServiceJourneyLink. Each ServiceJourneyLink has a particular departure and arrival time. ServiceJourneyLinks allow Routeplanners to calculate shortest Routes more easily since a Journey is executed at a specific time (on a specific DayType).",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{32E75250-45C3-42a5-9A14-4504F19FF35A}",
+      "name": "ServiceJourneyPattern",
+      "label": {
+        "en": "ServiceJourneyPattern",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "The JourneyPattern for a (passenger carrying) ServiceJourney",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{B34C550B-F186-4036-9F5F-1F511CEB5410}",
+      "name": "ServiceLink",
+      "label": {
+        "en": "ServiceLink",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "A Link between an ordered pair of ScheduledStopPoints",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{C5E97E28-D6D9-4be7-BD14-C12C3407D3EB}",
+      "name": "StopPlace",
+      "label": {
+        "en": "StopPlace",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "A StopPlace represents a station, stop, port, airport or any physical point of access to the transport network.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{D8C72519-1BCE-4eb0-A6D0-01AA2F1A9C9B}",
+      "name": "StopPointInJourneyPattern",
+      "label": {
+        "en": "StopPointInJourneyPattern",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Each PointInJourneyPattern specifies the visit of a Service to a specific ScheduledStopPoint in a particular order within the pattern.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{40F6009E-EAD8-407d-B2F4-E4C629D750B0}",
+      "name": "TimeTabledPassingTime",
+      "label": {
+        "en": "TimeTabledPassingTime",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "The PassingTimes that are the result of the scheduling process and to be published in a timetable are called TimeTabledPassingTimes. \n\nThe TimeTabledPassingTimes are normally generated a long time before the day of operation and are valid over a long period of time (e.g. summer, winter timetable)",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{39AFA130-5303-4f09-A36D-A41AF9061529}",
+      "name": "VehicleJourney",
+      "label": {
+        "en": "VehicleJourney",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "A VehicleJourney is the defined movement of a vehicle using a specified JourneyPattern on a particular Route. By virtue of being defined for a DayType, a VehicleJourney is a class of journeys that would take place at the same time on each day of a specified DayType.",
+        "nl": "Enter your translation here"
+      }
+    }
+  ],
+  "externalproperties": [
+    {
+      "EA-Guid": "Derived:{C98F5C69-E097-4582-AAA2-9155332B35F2}->{5D4210A5-0938-4d98-8232-DBD6597B3C00}",
+      "name": ""
+    },
+    {
+      "EA-Guid": "Derived:{C98F5C69-E097-4582-AAA2-9155332B35F2}->{C5E97E28-D6D9-4be7-BD14-C12C3407D3EB}",
+      "name": ""
+    },
+    {
+      "EA-Guid": "{5EC5BF0B-38D7-4cbb-B2A5-C338BFC980D4}",
+      "name": "accessModes",
+      "label": {
+        "en": "accessModes",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{51CF3409-DD99-476c-9DB4-39C8E9058FC5}",
+      "name": "accessabilityAssesment",
+      "label": {
+        "en": "accessabilityAssesment",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{117FFE4D-F5E7-403f-9367-A94C7EFC9E68}",
+      "name": "centroid",
+      "label": {
+        "en": "centroid",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{D64CC9A0-A6DF-48b7-AE89-BC37370D0B22}",
+      "name": "linestring",
+      "label": {
+        "en": "linestring",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{A04F056B-ACC6-4d06-B49B-108D2E2003BC}",
+      "name": "linestring",
+      "label": {
+        "en": "linestring",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{4967A58F-B8A1-41f2-95B7-7A771D6B8A34}",
+      "name": "location",
+      "label": {
+        "en": "location",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{7EFA3EA3-7FB2-46e0-99B3-C264BB743FAE}",
+      "name": "location",
+      "label": {
+        "en": "location",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{D33DDF3A-67DE-4d86-AB24-387FDA176695}",
+      "name": "madeUsing",
+      "label": {
+        "en": "madeUsing",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{98094F7B-AA95-4a82-A764-BCE3F79046A2}",
+      "name": "name",
+      "label": {
+        "en": "name",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{EF0B2D77-4DC5-4b3c-956B-ADCB9DD732B0}",
+      "name": "name",
+      "label": {
+        "en": "name",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{C8BCD2C7-D37D-4746-B73C-3F27D70E66F5}",
+      "name": "name",
+      "label": {
+        "en": "name",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{50B4910F-4EBC-4cef-AFB2-BD28BD5F7462}",
+      "name": "placeType",
+      "label": {
+        "en": "placeType",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{1AB81882-55D5-4e9c-9A9A-B760C4F7FA12}",
+      "name": "polygon",
+      "label": {
+        "en": "polygon",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{369E3837-2F11-4599-B3D7-BD8C9E8D99D7}",
+      "name": "roadAddress",
+      "label": {
+        "en": "roadAddress",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{B90F3564-FB68-4c35-BE90-975BEFFE3FF1}",
+      "name": "aViewOf",
+      "label": {
+        "en": "aViewOf",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{2A19BB5F-312E-4a66-BFBF-B01039B7F548}",
+      "name": "aViewOf",
+      "label": {
+        "en": "aViewOf",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{066931BE-777B-4107-BC0F-A87E324F31F5}",
+      "name": "aViewOf",
+      "label": {
+        "en": "aViewOf",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{13995641-9104-4f17-88F4-6FEB9CEF9266}",
+      "name": "arrivalDayOffset",
+      "label": {
+        "en": "arrivalDayOffset",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{180F3728-ABC8-4927-9071-B72858E2282E}",
+      "name": "arrivalStop",
+      "label": {
+        "en": "arrivalStop",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{0449445A-08CA-422f-A200-ACA37A63514C}",
+      "name": "arrivalTime",
+      "label": {
+        "en": "arrivalTime",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{6347C4DC-35AF-49b8-8EAD-09C0018FAF75}",
+      "name": "arrivalTime",
+      "label": {
+        "en": "arrivalTime",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{33D26DA9-327E-482b-B179-2AFE193B2E28}",
+      "name": "at",
+      "label": {
+        "en": "at",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{CA196460-3D1D-49de-ADD0-F7811E20E751}",
+      "name": "composedOf",
+      "label": {
+        "en": "composedOf",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{0BCD6C0C-38F3-42a2-B36E-F09BC16FD9AF}",
+      "name": "coveredBy",
+      "label": {
+        "en": "coveredBy",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{99AEE392-0F36-4d4a-A8BA-494F26DCC3F6}",
+      "name": "departureDayOffset",
+      "label": {
+        "en": "departureDayOffset",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{CF07F90C-077A-4e84-8ECB-F1F9B4DD78E8}",
+      "name": "departureStop",
+      "label": {
+        "en": "departureStop",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{54F09BCE-1CDD-47e8-89F4-8C61CC157667}",
+      "name": "departureTime",
+      "label": {
+        "en": "departureTime",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{72CA7C6E-11C9-4e1d-B6F6-826758F1E635}",
+      "name": "departureTime",
+      "label": {
+        "en": "departureTime",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{D7906709-015A-42ae-94E9-537498BBF4CD}",
+      "name": "departureTime",
+      "label": {
+        "en": "departureTime",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{945D65E7-B0E4-45bc-A9F5-DA7973E0594B}",
+      "name": "destinationDisplayRef",
+      "label": {
+        "en": "destinationDisplayRef",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{4BAF7D3E-D558-400c-9F88-69E4E4177F0F}",
+      "name": "directionRef",
+      "label": {
+        "en": "directionRef",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{D5724321-D0B5-4f0f-9F91-AD2AA5A17F09}",
+      "name": "distance",
+      "label": {
+        "en": "distance",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{C8E63DA1-AAC0-43d6-8184-8C486C8F91E2}",
+      "name": "endOf",
+      "label": {
+        "en": "endOf",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{66FC6B41-C708-4105-916B-42EFC02270E3}",
+      "name": "endOf",
+      "label": {
+        "en": "endOf",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{352A5455-CF60-4f0d-8808-CEEBA4A63545}",
+      "name": "etc",
+      "label": {
+        "en": "etc",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{23D9B352-85B5-4d7f-9A01-FF6F3D0DC446}",
+      "name": "etc",
+      "label": {
+        "en": "etc",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{D21CAFF0-7FD4-4575-9A35-5A03E6019201}",
+      "name": "etc",
+      "label": {
+        "en": "etc",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{DD1980F1-24F7-46d9-811E-41DE41E2FE93}",
+      "name": "etc",
+      "label": {
+        "en": "etc",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{A1357601-B0C6-4989-86F0-651575CBDB28}",
+      "name": "etc",
+      "label": {
+        "en": "etc",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{48AB4578-762F-41c5-9A19-B1BD07A82B3E}",
+      "name": "etc",
+      "label": {
+        "en": "etc",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{963FE439-121D-4b29-BFD1-1F69EB59C050}",
+      "name": "etc",
+      "label": {
+        "en": "etc",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{23D7B6AF-5853-427f-A106-71A8D1A7C238}",
+      "name": "etc",
+      "label": {
+        "en": "etc",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{51607347-450F-4b18-9175-1802ACA03D52}",
+      "name": "etc",
+      "label": {
+        "en": "etc",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{A2A811FD-BA27-435b-8BCA-2F742E7D8EAB}",
+      "name": "etc",
+      "label": {
+        "en": "etc",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{83D51D18-9DED-4928-8895-E1B4B0A7AFCC}",
+      "name": "etc",
+      "label": {
+        "en": "etc",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{45A1CA45-E3EA-48b9-A5F0-79E9D2473E95}",
+      "name": "etc",
+      "label": {
+        "en": "etc",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{D6B6097D-FC7F-471d-8169-66725DCB4782}",
+      "name": "etc",
+      "label": {
+        "en": "etc",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{94E08305-2C3B-48e8-A999-169843B16C64}",
+      "name": "etc",
+      "label": {
+        "en": "etc",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{3B1BC971-D3F8-4d34-881B-AF784E3DCEDC}",
+      "name": "etrc",
+      "label": {
+        "en": "etrc",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{ECADBF23-F38F-4a82-8B23-EB2D6F2DEF61}",
+      "name": "forAlighting",
+      "label": {
+        "en": "forAlighting",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{FA74EBD8-4F23-4b8b-8E1F-944263C89322}",
+      "name": "forAlighting",
+      "label": {
+        "en": "forAlighting",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{14903483-451C-46e8-9523-B0D5E7CD9F72}",
+      "name": "forBoarding",
+      "label": {
+        "en": "forBoarding",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{B2211FFE-9EC6-48c4-9CFF-FA0F139BE7B2}",
+      "name": "forBoarding",
+      "label": {
+        "en": "forBoarding",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{500C08AF-F627-44eb-8254-1600464B821D}",
+      "name": "from",
+      "label": {
+        "en": "from",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{ED9DE32A-688F-4b29-9772-C54A9CA45E35}",
+      "name": "from",
+      "label": {
+        "en": "from",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{4B29BD84-D131-4be3-9547-AB07A0FEF6AF}",
+      "name": "line",
+      "label": {
+        "en": "line",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{4AB4AA3F-2548-4c10-997D-04A8D4887079}",
+      "name": "madeUpOf",
+      "label": {
+        "en": "madeUpOf",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{3A09A7C5-54F8-4660-850E-F4C57F947238}",
+      "name": "madeUpOf",
+      "label": {
+        "en": "madeUpOf",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{95680296-7D19-437a-BBB2-6B92C78EBC99}",
+      "name": "madeUpOf",
+      "label": {
+        "en": "madeUpOf",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{ECAD65EC-B999-4b09-A2A9-C9FF972A67BF}",
+      "name": "madeUpOf",
+      "label": {
+        "en": "madeUpOf",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{51B3E41C-26E8-4f42-A808-F2A4ADC5FE9F}",
+      "name": "madeUpOf",
+      "label": {
+        "en": "madeUpOf",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{F80CADC6-FE22-4c18-9FC0-75CC2F9FE5E6}",
+      "name": "madeUsing",
+      "label": {
+        "en": "madeUsing",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{6A58F136-E230-48de-9A46-91C966C17010}",
+      "name": "name",
+      "label": {
+        "en": "name",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{161DB943-F535-47ba-9AF1-9B12D17BBBCE}",
+      "name": "order",
+      "label": {
+        "en": "order",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{9A903D5F-B541-4a5f-A916-0B32E4375697}",
+      "name": "order",
+      "label": {
+        "en": "order",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{B813DC95-8153-4462-B39C-B05A7F895A85}",
+      "name": "order",
+      "label": {
+        "en": "order",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{55C2DC07-525B-4007-B8DA-CE8188CF8BA4}",
+      "name": "passedAt",
+      "label": {
+        "en": "passedAt",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{28180695-1786-4ecb-8ED0-203DECC0F315}",
+      "name": "publicCode",
+      "label": {
+        "en": "publicCode",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{4D1DCAF1-2097-4b84-ADFC-A82B414ABE11}",
+      "name": "publicCode",
+      "label": {
+        "en": "publicCode",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{6D721B2C-DD52-4706-849F-740BF09CE8F7}",
+      "name": "quay",
+      "label": {
+        "en": "quay",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{F2CA5738-5D0D-4776-9F66-8E414ECC1B8D}",
+      "name": "serves",
+      "label": {
+        "en": "serves",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{500C08AF-F627-44eb-8254-1600464B821D}",
+      "name": "startOf",
+      "label": {
+        "en": "startOf",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{ED9DE32A-688F-4b29-9772-C54A9CA45E35}",
+      "name": "startOf",
+      "label": {
+        "en": "startOf",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{41D38E5B-A7F6-4638-9279-C6F0674CAB34}",
+      "name": "stopPlaceType",
+      "label": {
+        "en": "stopPlaceType",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{6F8F5E2F-75CD-443c-98CA-7B26BCD5CA65}",
+      "name": "stopType",
+      "label": {
+        "en": "stopType",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{C8E63DA1-AAC0-43d6-8184-8C486C8F91E2}",
+      "name": "to",
+      "label": {
+        "en": "to",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{66FC6B41-C708-4105-916B-42EFC02270E3}",
+      "name": "to",
+      "label": {
+        "en": "to",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{B3C5675E-FAFC-4808-9B77-0F260B345C06}",
+      "name": "transportMode",
+      "label": {
+        "en": "transportMode",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{CB776FBB-4615-4f3d-B336-44DD79D808B9}",
+      "name": "transportmode",
+      "label": {
+        "en": "transportmode",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{C62895B6-D874-4278-9E5A-04A746345D7A}",
+      "name": "transportmode",
+      "label": {
+        "en": "transportmode",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{3A3684F2-7486-4fb9-AE06-6416C825C926}",
+      "name": "trough",
+      "label": {
+        "en": "trough",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{B90F3564-FB68-4c35-BE90-975BEFFE3FF1}",
+      "name": "viewedAs",
+      "label": {
+        "en": "viewedAs",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{2A19BB5F-312E-4a66-BFBF-B01039B7F548}",
+      "name": "viewedAs",
+      "label": {
+        "en": "viewedAs",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{066931BE-777B-4107-BC0F-A87E324F31F5}",
+      "name": "viewedAs",
+      "label": {
+        "en": "viewedAs",
+        "nl": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TODO",
+        "nl": "Enter your translation here"
+      }
+    }
+  ]
+}
