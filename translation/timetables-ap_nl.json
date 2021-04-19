@@ -357,7 +357,7 @@
       },
       "label": {
         "en": "name",
-        "nl": "Enter your translation here"
+        "nl": "naam"
       }
     },
     {
@@ -369,7 +369,7 @@
       },
       "label": {
         "en": "name",
-        "nl": "Enter your translation here"
+        "nl": "naam"
       }
     },
     {
@@ -525,7 +525,7 @@
       },
       "label": {
         "en": "composedOf",
-        "nl": "Enter your translation here"
+        "nl": "samengesteld door"
       }
     },
     {
@@ -681,7 +681,7 @@
       },
       "label": {
         "en": "etc",
-        "nl": "Enter your translation here"
+        "nl": "etc"
       }
     },
     {
@@ -997,7 +997,7 @@
       },
       "label": {
         "en": "name",
-        "nl": "Enter your translation here"
+        "nl": "naam"
       }
     },
     {
@@ -1173,11 +1173,11 @@
       "EA-Guid": "{B3C5675E-FAFC-4808-9B77-0F260B345C06}",
       "definition": {
         "en": "TODO",
-        "nl": "Enter your translation here"
+        "nl": "TODO"
       },
       "label": {
         "en": "transportMode",
-        "nl": "Enter your translation here"
+        "nl": "transport modus"
       }
     },
     {
