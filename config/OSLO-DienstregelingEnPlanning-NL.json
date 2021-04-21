@@ -6,7 +6,7 @@
   "diagram": "Timetables",
   "template": "timetables-ap_nl.j2",
   "title": "OSLO Mobiliteit - Dienstregeling en Planning: Tijdstabellen (applicatieprofiel)",
-  "publication-state": "Working Draft",
+  "publication-state": "https://data.vlaanderen.be/doc/concept/StandaardStatus/OntwerpStandaard",
   "publication-date": "2021-03-25",
   "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
   "contributors-file": "stakeholders.csv",
@@ -15,3 +15,4 @@
   "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-mobiliteitDienstregelingEnPlanning/issues",
   "standaardregisterurl": "https://data.vlaanderen.be/standaarden/standaard-in-ontwikkeling/applicatieprofielen-mobiliteit-dienstregeling-en-planning.html"
 }
+]
