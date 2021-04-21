@@ -1,6 +1,6 @@
 [
 {
-  "name": "timetables-ap",
+  "name": "tijdstabellen-ap",
   "type": "ap",
   "eap": "OSLO-DienstregelingEnPlanning-AP.EAP",
   "diagram": "Timetables",
