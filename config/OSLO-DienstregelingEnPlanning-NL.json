@@ -4,7 +4,7 @@
   "type": "ap",
   "eap": "OSLO-DienstregelingEnPlanning-AP.EAP",
   "diagram": "Timetables",
-  "template": "timetables-ap_nl.j2",
+  "template": "tijdstabellen-ap.j2",
   "title": "OSLO Mobiliteit - Dienstregeling en Planning: Tijdstabellen (applicatieprofiel)",
   "publication-state": "https://data.vlaanderen.be/doc/concept/StandaardStatus/OntwerpStandaard",
   "publication-date": "2021-03-25",
