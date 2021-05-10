@@ -77,6 +77,10 @@
   "contributors-column": "MijnKolom",
   "site": "site-skeleton/vehiclescheduling-ap",
   "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-mobiliteitDienstregelingEnPlanning/issues",
-  "standaardregisterurl": "https://data.vlaanderen.be/standaarden/"
+  "standaardregisterurl": "https://data.vlaanderen.be/standaarden/",
+     "translation": [
+    {
+    }
+  ]
 }
 ]
