@@ -68,7 +68,7 @@
   "type": "ap",
   "eap": "OSLO-DienstregelingEnPlanning-AP.EAP",
   "diagram": "VehicleScheduling",
-  "template": "timetables-ap_en.j2",
+  "template": "vehiclescheduling-ap_en.j2",
   "title": "NeTEx Belgium: Vehicle Scheduling (application profile)",
   "publication-state": "Working Draft",
   "publication-date": "2021-06-01",
