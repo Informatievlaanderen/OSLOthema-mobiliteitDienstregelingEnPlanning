@@ -81,17 +81,17 @@
   "translation": [
     {
       "language":"en",
-      "template":"timetables-ap_en.j2",
+      "template":"vehiclescheduling-ap_en.j2",
       "title": "NeTEx Belgium: Vehicle Scheduling (application profile)",
-      "translationjson":"timetables-ap_en.json",
-      "mergefile":"timetables-ap_en_merged.jsonld"
+      "translationjson":"vehiclescheduling-ap_en.json",
+      "mergefile":"vehiclescheduling-ap_en_merged.jsonld"
     },
     {
       "language":"nl",
-      "template":"timetables-ap_nl.j2",
+      "template":"vehiclescheduling-ap_nl.j2",
       "title": "OSLO Mobiliteit - Dienstregeling en Planning: Voertuigplanning (applicatieprofiel)",
-      "translationjson":"timetables-ap_nl.json",
-      "mergefile":"timetables-ap_nl_merged.jsonld"
+      "translationjson":"vehiclescheduling-ap_nl.json",
+      "mergefile":"vehiclescheduling-ap_nl_merged.jsonld"
     }
   ]
 }
