@@ -7,7 +7,7 @@
   "template": "timetables-ap_en.j2",
   "title": "NeTEx Belgium: Timetables (application profile)",
   "publication-state": "Working Draft",
-  "publication-date": "2021-03-25",
+  "publication-date": "2021-06-01",
   "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
   "contributors-file": "stakeholders.csv",
   "contributors-column": "MijnKolom",
@@ -39,7 +39,7 @@
   "template": "stopplaces-ap_en.j2",
   "title": "NeTEx Belgium: Stop Places (application profile)",
   "publication-state": "Working Draft",
-  "publication-date": "2021-03-25",
+  "publication-date": "2021-06-01",
   "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
   "contributors-file": "stakeholders.csv",
   "contributors-column": "MijnKolom",
@@ -60,6 +60,38 @@
       "title": "OSLO Mobiliteit - Dienstregeling en Planning: Stopplaatsen (applicatieprofiel)",
       "translationjson":"stopplaces-ap_nl.json",
       "mergefile":"stopplaces-ap_nl_merged.jsonld"
+    }
+  ]
+},
+  {
+  "name": "vehiclescheduling-ap",
+  "type": "ap",
+  "eap": "OSLO-DienstregelingEnPlanning-AP.EAP",
+  "diagram": "VehicleScheduling",
+  "template": "timetables-ap_en.j2",
+  "title": "NeTEx Belgium: Vehicle Scheduling (application profile)",
+  "publication-state": "Working Draft",
+  "publication-date": "2021-06-01",
+  "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+  "contributors-file": "stakeholders.csv",
+  "contributors-column": "MijnKolom",
+  "site": "site-skeleton/vehiclescheduling-ap",
+  "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-mobiliteitDienstregelingEnPlanning/issues",
+  "standaardregisterurl": "https://data.vlaanderen.be/standaarden/",
+  "translation": [
+    {
+      "language":"en",
+      "template":"timetables-ap_en.j2",
+      "title": "NeTEx Belgium: Vehicle Scheduling (application profile)",
+      "translationjson":"timetables-ap_en.json",
+      "mergefile":"timetables-ap_en_merged.jsonld"
+    },
+    {
+      "language":"nl",
+      "template":"timetables-ap_nl.j2",
+      "title": "OSLO Mobiliteit - Dienstregeling en Planning: Voertuigplanning (applicatieprofiel)",
+      "translationjson":"timetables-ap_nl.json",
+      "mergefile":"timetables-ap_nl_merged.jsonld"
     }
   ]
 }
