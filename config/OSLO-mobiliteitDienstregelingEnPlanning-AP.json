@@ -2,7 +2,7 @@
 {
   "name": "timetables-ap",
   "type": "ap",
-  "eap": "OSLO-DienstregelingEnPlanning-AP.EAP",
+  "eap": "OSLO-DienstregelingEnPlanning-TimeTables-AP.EAP",
   "diagram": "Timetables",
   "template": "timetables-ap_en.j2",
   "title": "NeTEx Belgium: Timetables (application profile)",
