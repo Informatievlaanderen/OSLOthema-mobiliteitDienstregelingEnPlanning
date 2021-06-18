@@ -7,7 +7,7 @@
   "template": "timetables-ap_en.j2",
   "title": "NeTEx Belgium: Timetables (application profile)",
   "publication-state": "Working Draft",
-  "publication-date": "2021-06-15",
+  "publication-date": "2021-06-01",
   "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
   "contributors-file": "stakeholders.csv",
   "contributors-column": "MijnKolom",
@@ -34,7 +34,7 @@
 {
   "name": "stopplaces-ap",
   "type": "ap",
-  "eap": "OSLO-DienstregelingEnPlanning-AP.EAP",
+  "eap": "OSLO-DienstregelingEnPlanning-StopPlaces-AP.EAP",
   "diagram": "StopPlaces",
   "template": "stopplaces-ap_en.j2",
   "title": "NeTEx Belgium: Stop Places (application profile)",
@@ -66,7 +66,7 @@
   {
   "name": "vehiclescheduling-ap",
   "type": "ap",
-  "eap": "OSLO-DienstregelingEnPlanning-AP.EAP",
+  "eap": "OSLO-DienstregelingEnPlanning-VehicleScheduling-AP.EAP",
   "diagram": "VehicleScheduling",
   "template": "vehiclescheduling-ap_en.j2",
   "title": "NeTEx Belgium: Vehicle Scheduling (application profile)",
