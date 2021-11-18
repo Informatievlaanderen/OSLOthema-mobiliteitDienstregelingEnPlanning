@@ -3,18 +3,22 @@
   "rapport" : "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/applicatieprofiel/mobiliteit-dienstregeling-en-planning/dienstregeling/ontwerpstandaard/2021-03-04/all-timetables-ap.jsonld",
   "verantwoordelijke_organisatie": "De Lijn",
   "identificator_organisatie": "http://data.vlaanderen.be/id/organisatie/OVO000100",
-  "publicatiedatum": "TBD",
+  "publicatiedatum": "2021-11-18",
   "type_toepassing": "TBD",
   "categorie": "Applicatieprofiel",
   "beschrijving" : "ap-dienstregeling-en-planning.md",
   "specificatiedocument": [
     {
-      "naam": "Applicatieprofiel Dienstregeling (Timetables)",
-      "waarde": "https://purl.eu/doc/applicationprofile/netex-belgium/timetables-ap/"
+      "naam": "Applicatieprofiel Tijdstabellen",
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/tijdstabellen/ontwerpstandaard/2021-11-18"
     },
     {
-      "naam": "Applicatieprofiel Stopplaatsen (Stop Places)",
-      "waarde": "https://purl.eu/doc/applicationprofile/netex-belgium/stopplaces-ap/"
+      "naam": "Applicatieprofiel Stopplaatsen",
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/stopplaatsen/ontwerpstandaard/2021-11-18"
+    },
+    {
+      "naam": "Applicatieprofiel Voertuigplanning",
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/voertuigplanning/ontwerpstandaard/2021-11-18"
     }
   ],
   "documentatie": [],
