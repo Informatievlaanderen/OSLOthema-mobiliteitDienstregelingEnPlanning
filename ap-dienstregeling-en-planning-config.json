@@ -10,15 +10,15 @@
   "specificatiedocument": [
     {
       "naam": "Applicatieprofiel Tijdstabellen",
-      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/tijdstabellen/ontwerpstandaard/2021-11-18"
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/tijdstabellen/kandidaatstandaard/2021-11-18"
     },
     {
       "naam": "Applicatieprofiel Stopplaatsen",
-      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/stopplaatsen/ontwerpstandaard/2021-11-18"
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/stopplaatsen/kandidaatstandaard/2021-11-18"
     },
     {
       "naam": "Applicatieprofiel Voertuigplanning",
-      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/voertuigplanning/ontwerpstandaard/2021-11-18"
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/voertuigplanning/kandidaatstandaard/2021-11-18"
     }
   ],
   "documentatie": [],
