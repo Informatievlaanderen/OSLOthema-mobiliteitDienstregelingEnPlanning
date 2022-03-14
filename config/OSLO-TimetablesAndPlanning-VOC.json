@@ -1,0 +1,34 @@
+[
+{
+  "name": "timetables-and-planning-voc",
+  "prefix": "mobility",
+  "type": "voc",
+  "eap": "OSLO-TimetablesAndPlanning-VOC.EAP",
+  "diagram": "TimetablesAndPlanning",
+  "template": "TimetablesAndPlanning-en-voc.j2",
+  "title": "Timetables and Planning (Vocabulary)",
+  "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+  "publication-date": "2022-03-17",
+  "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+  "contributors-file": "stakeholders.csv",
+  "contributors-column": "MijnKolom",
+  "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-airAndWater/issues",
+  "standaardregisterurl": "https://purl.eu",
+  "translation" :[
+   {
+      "language":"en",
+      "template":"TimetablesAndPlanning-en-voc.j2",
+      "title": "Timetables and Planning (Vocabulary)",
+      "translationjson":"timetablesandplanning-voc_en.json",
+      "mergefile":"timetablesandplanning-voc_en_merged.jsonld"
+    },
+    {
+      "language":"nl",
+      "template":"TimetablesAndPlanning-nl-voc.j2",
+      "title": "Timetables and Planning (Vocabulary)",
+      "translationjson":"timetablesandplanning-voc_nl.json",
+      "mergefile":"timetablesandplanning-voc_nl_merged.jsonld"
+    }
+   ]
+}
+]
