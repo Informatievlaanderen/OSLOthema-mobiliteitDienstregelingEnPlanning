@@ -23,7 +23,15 @@
     },
     {
       "naam" : "Verslag thematische werkgroep 1 - 8 februari 2021",
-      "waarde" : "20210208 - OSLO Mobiliteit - Dienstregeling en Planning - Thematische Werkgroep 1 - Presentatie.pdf"
+      "waarde" : "20210208 - OSLO Mobiliteit - Dienstregeling en Planning - Thematische Werkgroep 1 - Verslag.pdf"
+    },
+    {
+      "naam" : "Verslag thematische werkgroep 2 - 25 maart 2021",
+      "waarde" : "20210325 - OSLO Mobiliteit - Dienstregeling en Planning - Thematische Werkgroep 2 - Verslag.pdf"
+    },
+    {
+      "naam" : "Verslag thematische werkgroep 3 - 22 april 2021",
+      "waarde" : "20210422 - OSLO Mobiliteit - Dienstregeling en Planning - Thematische Werkgroep 3 - Verslag.pdf"
     }
   ],
   "presentaties": [
@@ -34,6 +42,14 @@
     {
       "naam" : "Presentatie thematische werkgroep 1 - 8 februari 2021",
       "waarde" : "20210208 - OSLO Mobiliteit - Dienstregeling en Planning - Thematische Werkgroep 1 - Presentatie.pdf"
+    },
+    {
+      "naam" : "Presentatie thematische werkgroep 2 - 25 maart 2021",
+      "waarde" : "20210325 - OSLO Mobiliteit - Dienstregeling en Planning - Thematische Werkgroep 2 - Presentatie.pdf"
+    },
+    {
+      "naam" : "Presentatie thematische werkgroep 3 - 22 april 2021",
+      "waarde" : "20210422 - OSLO Mobiliteit - Dienstregeling en Planning - Thematische Werkgroep 3 - Presentatie.pdf"
     }
   ],
   "functioneel_toepassingsgebied": "Semantische standaard voor informatie over dienstregeling- en planningsinformatie",
