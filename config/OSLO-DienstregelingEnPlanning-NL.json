@@ -13,7 +13,7 @@
   "contributors-column": "Dienstregeling",
   "site": "site-skeleton/tijdstabellen-ap",
   "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-mobiliteitDienstregelingEnPlanning/issues",
-  "standaardregisterurl": "https://data.vlaanderen.be/standaarden/standaard-in-ontwikkeling/applicatieprofielen-mobiliteit-dienstregeling-en-planning.html"
+  "standaardregisterurl": "https://data.vlaanderen.be/standaarden/kandidaat-standaard/applicatieprofielen-mobiliteit-dienstregeling-en-planning.html"
 },
 {
   "name": "stopplaatsen-ap",
@@ -29,7 +29,7 @@
   "contributors-column": "Dienstregeling",
   "site": "site-skeleton/stopplaatsen-ap",
   "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-mobiliteitDienstregelingEnPlanning/issues",
-  "standaardregisterurl": "https://data.vlaanderen.be/standaarden/standaard-in-ontwikkeling/applicatieprofielen-mobiliteit-dienstregeling-en-planning.html"
+  "standaardregisterurl": "https://data.vlaanderen.be/standaarden/kandidaat-standaard/applicatieprofielen-mobiliteit-dienstregeling-en-planning.html"
 },
 {
   "name": "voertuigplanning-ap",
@@ -44,6 +44,22 @@
   "contributors-file": "stakeholders.csv",
   "contributors-column": "Dienstregeling",
   "site": "site-skeleton/voertuigplanning-ap",
+  "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-mobiliteitDienstregelingEnPlanning/issues",
+  "standaardregisterurl": "https://data.vlaanderen.be/standaarden/kandidaat-standaard/applicatieprofielen-mobiliteit-dienstregeling-en-planning.html"
+},
+{
+  "name": "dienstregeling-en-planning-voc",
+  "type": "voc",
+  "prefix": "mobiliteit",
+  "eap": "OSLO-TimetablesAndPlanning-VOC.EAP",
+  "diagram": "TimetablesAndPlanning",
+  "template": "TimetablesAndPlanning-nl-voc.j2",
+  "title": "OSLO Mobiliteit - Dienstregeling en Planning (Vocabularium)",
+  "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+  "publication-date": "2022-03-17",
+  "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+  "contributors-file": "stakeholders.csv",
+  "contributors-column": "Dienstregeling",
   "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-mobiliteitDienstregelingEnPlanning/issues",
   "standaardregisterurl": "https://data.vlaanderen.be/standaarden/standaard-in-ontwikkeling/applicatieprofielen-mobiliteit-dienstregeling-en-planning.html"
 }
