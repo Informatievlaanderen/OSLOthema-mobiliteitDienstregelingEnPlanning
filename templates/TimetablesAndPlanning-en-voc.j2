@@ -1,5 +1,37 @@
 {% extends "purl-voc2_en.j2" %}
 
 {% block summary %}
-TODO
+<p>
+This vocabulary contains the terms necessary to describe the timetables and planning of public transport networks.
+</p>
+<p>
+The terminology is based on EPIP, this is a profile on <a href="https://netex-cen.eu/">NETEX</a> that allows, among other things, to describe timetables and stops. The terms that can be used to describe vehicle planning are based on NETEX only.
+</p>
+<p>
+To describe timetables, we can first describe the public transport offer by means of Networks, Lines and the Routes they follow.
+</p>
+<p>
+To describe the network topology, we can use Points to indicate how the Routes run correctly.
+</p>
+<p>
+Patterns of loaded Journeys (the so-called ServiceJourneys) run past ScheduledStoppoints, these are the logical stops of the Network: places from where people can travel to other stops or where people can transfer to other Lines.
+</p>
+<p>
+For the Points through which the Journeys pass (including the ScheduledStops), PassingTimes can be described, either the times along the Stops of a Line (in a particular direction) or all the PassingTimes at the stop during the day.
+</p>
+<p>
+It is thereby possible to classify ServiceJourneys by day type (weekday, school day, etc.) and to link this to actual dates in order to create a ServiceCalendar for a school year for example.
+</p>
+<p>
+The ScheduledStoppoints are logical stops, but it often happens that they almost coincide spatially (are within walking distance of each other) and are part of one large physical stop (the Stopplace), eg a train station.
+</p>
+<p>
+It is also possible to describe a hierarchy of Stops (Multimodal, Unimodal, Platform). More information can also be given about the infrastructure of the Stopplace, eg the entrances and exits.
+</p>
+<p>
+There is also terminology in this vocabulary to describe so-called Blocks. This is an important concept when planning the services of the public transport company. They are fixed sequences of Journeys, intended to deploy the vehicles (and therefore the drivers) as efficiently as possible.
+</p>
+<p>
+These can be linked to the most suitable Vehicle Types (eg based on their Passenger Capacity) and to the Service Calendar to easily assign drivers to Blocks.
+</p>
 {% endblock %}
