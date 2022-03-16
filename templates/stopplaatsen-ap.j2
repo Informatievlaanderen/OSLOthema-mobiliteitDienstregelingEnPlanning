@@ -11,19 +11,19 @@ De standaard is gebaseerd op het EPIP-profiel op <a href="https://netex-cen.eu/"
 Use case hier is het beschrijven van halte-infrastructuur, halteplannen en routeplanning op basis van stations, POI’s of topografische plaatsen. 
 </p>
 <p>
-De klasse GeplandeStopplaats (meer uitgebreid besproken in OSLO – Dienstregeling en Planning: Tijdstabellen) beschrijft de punten waar Lijnen halt houden bij het uitvoeren van een Dienstrit. Het zijn de logische haltes van een Netwerk, de punten waar kan worden afgestapt maar ook van waaruit andere haltes in het Netwerk kunnen worden bereikt of van waaruit overgestapt kan worden op haltes van een overlappend Netwerk. 
+De klasse GeplandeStoppunt (meer uitgebreid besproken in OSLO – Dienstregeling en Planning: Tijdstabellen) beschrijft de punten waar Lijnen halt houden bij het uitvoeren van een Dienstrit. Het zijn de logische haltes van een Netwerk, de punten waar kan worden afgestapt maar ook van waaruit andere haltes in het Netwerk kunnen worden bereikt of van waaruit overgestapt kan worden op haltes van een overlappend Netwerk. 
 </p>
 <p>
 Fysiek realiseren deze haltes zich als een Stopplaats, deze klasse stelt dus de fysieke haltes voor. Dit kan gaan van haltepalen of schuilhokken tot complete stations met meerdere verdiepingen voor verschillende vervoersmodi. 
 </p>
 <p>
-Beide klassen zijn met elkaar verbonden, typisch geval is de multimodale situatie waarbij elk Netwerk zijn eigen GeplandeStopplaatsen heeft zelfs als deze ruimtelijk samenvallen (bv een Stoppplaats waar zowel bussen als trams stoppen). Via de relatie Stoppplaats-GeplandeStopplaats kan je nagaan welke openbaarvervoersdiensten je allemaal kan consumeren in de fysieke halte. 
+Beide klassen zijn met elkaar verbonden, typisch geval is de multimodale situatie waarbij elk Netwerk zijn eigen GeplandeStoppunten heeft zelfs als deze ruimtelijk samenvallen (bv een Stoppplaats waar zowel bussen als trams stoppen). Via de relatie Stoppplaats-GeplandeStoppunt kan je nagaan welke openbaarvervoersdiensten je allemaal kan consumeren in de fysieke halte. 
 </p>
 <p>
-Er wordt daarbij van uitgegaan dat alle GeplandeStopplaatsen (logische haltes) binnen een Stopplaats (fysieke halte) op wandelafstand van elkaar liggen, maw dat impliciet overstappen mogelijk zijn tussen de logische haltes van een Stopplaats. Het model laat momenteel nog niet toe om deze connecties expliciet te beschrijven. 
+Er wordt daarbij van uitgegaan dat alle GeplandeStoppunten (logische haltes) binnen een Stopplaats (fysieke halte) op wandelafstand van elkaar liggen, maw dat impliciet overstappen mogelijk zijn tussen de logische haltes van een Stopplaats. Het model laat momenteel nog niet toe om deze connecties expliciet te beschrijven. 
 </p>
 <p>
-Voordeel van Stopplaats is ook dat de fysieke kant van de halte-infrastructuur kan beschreven worden en dit dus los van de beschrijving van de topologie van het Netwerk. Onder andere klassen zoals Perron en Stopplaatstoegang zijn voorzien. Het is ook mogelijk om GeplandeStopplaatsen direct te koppelen met Perrons. 
+Voordeel van Stopplaats is ook dat de fysieke kant van de halte-infrastructuur kan beschreven worden en dit dus los van de beschrijving van de topologie van het Netwerk. Onder andere klassen zoals Perron en Stopplaatstoegang zijn voorzien. Het is ook mogelijk om GeplandeStoppunten direct te koppelen met Perrons. 
 </p>
 <p>
 Een Stopplaats is een Site en dankzij de klasse Stopplaats.parentSite kan een hiërarchie van Stopplaatsen worden uitgewerkt. EPIP laat 3 niveaus toe: een Algemeen (multimodaal), Monomodaal en Perron. GroepVanStopplaatsen laat verder ook toe om gelijkaardige Stopplaatsen te groeperen, bv volgens hun ligging (bv alle metrostations van Brussel). 
