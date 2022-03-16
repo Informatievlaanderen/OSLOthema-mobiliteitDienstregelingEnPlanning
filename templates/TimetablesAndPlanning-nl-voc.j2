@@ -1,5 +1,37 @@
 {% extends "purl-voc2_en.j2" %}
 
 {% block summary %}
-TODO
+<p>
+Dit vocabularium bevat de termen noodzakelijk om de dienstregeling en planning van openbaar vervoersnetwerken te beschrijven. 
+</p>
+<p>
+De terminologie is gebaseerd op EPIP, dit is een profiel op NETEX dat onder andere toelaat om tijdstabellen en stopplaatsen te beschrijven. De termen die gebruikt kunnen worden om voertuigplanning te beschrijven zijn enkel op NETEX gebaseerd. 
+</p>
+<p>
+Om tijdstabellen te beschrijven moeten we eerst het openbaar vervoersaanbod kunnen beschrijven dmv Netwerken, Lijnen en de Routes die zij volgen. 
+</p>
+<p>
+Om de netwerktoplogie te beschrijven beschikken we over Ritpatronen die dmv Punten aangeven hoe de Routes juist lopen. 
+</p>
+<p>
+Patronen van beladen Ritten (de zgn Dienstritten) lopen langs GeplandeStoppunten, dit zijn de logische haltes vh Netwerk: plaatsen van waaruit naar andere haltes kan gereisd worden of waar op andere Lijnen kan worden overgestapt. 
+</p>
+<p>
+Voor de Punten waarlangs de Ritten passeren (waaronder dus de GeplandeStoppunten) kunnen Doorkomsttijden worden beschreven, ofwel de tijden langs de haltes van een Lijn (in een bepaalde richting) of alle Doorkomsttijden gedurende de dag aan een halte. 
+</p>
+<p>
+Het is daarbij mogelijk om Dienstritten te diversifiëren volgens dagtype (weekdag, schooldag etc) en om deze aan werkelijke datums te koppelen om voor bv een bepaald schooljaar een Dienstkalender te hebben. 
+</p>
+<p>
+De GeplandeStoppunten zijn logische haltes maar het komt veel voor dat ze ruimtelijk quasi samenvallen (op loopafstand van elkaar liggen) en deel uitmaken van één grote fysieke halte (de Stopplaats), bv een treinstation. 
+</p>
+<p>
+Het is mogelijk om een hiërarchie van Stopplaatsen te beschrijven (Multimodaal, Unimodaal, Perron). Ook kan meer detail gegeven worden over de infrastructuur van de fysieke halte, bv de in- en uitgangen. 
+</p>
+<p>
+Er is ook terminologie in dit vocabularium om zgn Blokken te beschrijven. Dit is een belangrijk concept bij het plannen van de dienstverlening door de openbaar vervoersmaatschappij. Het zijn vastgelegde opeenvolgingen van Ritten, bedoeld om zo efficiënt mogelijk de voertuigen (en dus de bestuurders) in te zetten. 
+</p>
+<p>
+Deze kunnen gekoppeld worden met de meest geschikte Voertuigtypes (bv op basis van hun Passagierscapaciteit) en met de Dienstkalender om makkelijk bestuurders aan Blokken te kunnen toewijzen. 
+</p>
 {% endblock %}
