@@ -19,7 +19,7 @@
   "name": "stopplaatsen-ap",
   "type": "ap",
   "eap": "OSLO-DienstregelingEnPlanning-StopPlaces-AP.EAP",
-  "diagram": "Stopplaatsen",
+  "diagram": "StopPlaces",
   "template": "stopplaatsen-ap.j2",
   "title": "OSLO Mobiliteit - Dienstregeling en Planning: Stopplaatsen (Applicatieprofiel)",
   "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
