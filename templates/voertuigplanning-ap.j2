@@ -1,5 +1,31 @@
 {% extends "ap2.j2" %}
 
 {% block summary %}
-<p>TO DO</p>
+<p>
+Het applicatieprofiel OSLO Mobiliteit – Dienstregeling en Planning: Voertuigplanning beschrijft hoe de termen uit het overeenkomstig vocabularium moeten worden gebruikt om te beschrijven hoe een openbaar vervoersmaatschappij zijn voertuigen inzet voor het afwikkelen van de dienstverlening.  
+</p>
+<p>
+De standaard is gebaseerd op <a href="https://netex-cen.eu/">NETEX</a>. 
+</p>
+<p>
+Centrale klasse daarbij is Blok. Een Blok is verzameling opeenvolgende Ritten die met eenzelfde voertuig wordt afgewerkt van zodra het de Garage verlaat tot het moment dat het daar terugkeert. Blokken vormen de basis voor het efficiënt inzetten van voertuigen en bestuurders, bv door Ritten van verschillende Lijnen ruimtelijk aaneen te plakken. 
+</p>
+<p>
+Blokken omvatten zowel Dienstritten (waarop passagiers kunnen op- of afstappen, zie OSLO Mobiliteit – Dienstregeling en Planning: Tijdstabellen voor meer info) als OnbeladenRitten. 
+</p>
+<p>
+Doordat Ritten gekoppeld zijn aan Dagtypes (weekdagen, schoolvakanties etc) is dat ook het geval voor de Blokken waartoe ze behoren en kan door de Dagtypes aan werkelijke datums te koppelen een Dienstkalender worden opgesteld. 
+</p>
+<p>
+Verder worden Blokken beschreven door de Parkeerpunten (stelplaatsen) waar de eerste Rit vertrekt en de laatste toekomt. Deze zijn verder te specialiseren naar Garagepunt en te koppelen aan fysieke Garages en dienstlokalen (klasse Bemanningsbasis). 
+</p>
+<p>
+Ook het Voertuigtype waarmee de ritten vh Blok worden uitgevoerd kunnen worden opgegeven, met oa info over de beschikbare Passagierscapaciteit. 
+</p>
+<p>
+Omdat naast Dienstritten ook OnbeladenRitten beschreven kunnen worden, hebben we naast Dienstritpatronen ook OnbeladenRitpatronen. Meer info over de Routes van deze Ritten en bijbehorende Lijnen volgt uit de associatie met de klasse Route. Verder kan voor elke Rit worden opgegeven welke Punten onderweg worden aangedaan met de bijbehorende Doorkomsttijden (voor een verdere beschrijving daarvan zie eveneens zie OSLO Mobiliteit – Dienstregeling en Planning: Tijdstabellen). 
+</p>
+<p>
+Momenteel niet in deze standaard is het koppelen van werkelijke Voertuigen en van Bestuurders aan Blokken. Ook buiten scope op dit moment zijn Rijtijden. 
+</p>
 {% endblock %}
