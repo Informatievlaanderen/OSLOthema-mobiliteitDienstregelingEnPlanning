@@ -1,5 +1,31 @@
 {% extends "ap2.j2" %}
 
 {% block summary %}
-<p>TO DO</p>
+<p>
+Het applicatieprofiel OSLO Mobiliteit – Dienstregeling en Planning: Tijdstabellen beschrijft hoe de termen uit het overeenkomstig vocabularium moeten worden gebruikt om de netwerktopologie en dienstregeling van een openbaar vervoersnetwerk te beschrijven. 
+</p>
+<p>
+De standaard is gebaseerd op het EPIP-profiel op <a href="https://netex-cen.eu/">NETEX</a>. 
+</p>
+<p>
+Use-cases voor deze standaard zijn: routeplanning, cartografie (netplannen), dienstregeling en het opzoeken van haltes/lijnen. 
+</p>
+<p>
+Openbaar vervoer wordt typisch aangeboden onder de vorm van Lijnen, die bv op basis van de transportmodus (trein, tram, bus… ) gegroepeerd kunnen worden en deel uitmaken van een Netwerk. Deze Lijnen volgen bepaalde Routes op het terrein, het model laat toe de richting en de geometrie van deze Routes te beschrijven dmv Routepunten en verbindingen daartussen, de Routelinks. 
+</p>
+<p>
+Een ander deel van het model beschrijft de dienstverlening die door de Lijnen wordt geboden: de plaatsen waar gestopt wordt en de tijdstippen waarop daar wordt gestopt. 
+</p>
+<p>
+Een Lijn volgt een zgn Ritpatroon, ttz de opeenvolging van Punten die door de Lijn worden aangedaan. De specialisatie daarvan, een Dienstpatroon, beschrijft de opeenvolging van Punten waar werkelijk gestopt wordt. Dit zijn de zgn GeplandeStoppunten: plaatsen waar passagiers kunnen op- of afstappen. Deze logische haltes kunnen gelinkt worden met fysieke haltes (klasse Stopplaats) die apart beschreven worden in het applicatieprofiel OSLO Mobiliteit – Dienstregeling en Planning: Stopplaatsen. 
+</p>
+<p>
+Voor elk punt dat wordt aangedaan door een Lijn of waar voor passagiers wordt gestopt kunnen Doorkomsttijden worden opgegeven. Deze kunnen gegroepeerd worden per halte en vormen dan de typische tijdstabellen die men daar aantreft. Ze kunnen ook geordend worden volgens het Ritpatroon van een Lijn en beschrijven dan een individuele Dienstrit met de Doorkomsttijden aan de haltes.  
+</p>
+<p>
+Een specifieke Dienstrit wordt niet noodzakelijk dagelijks uitgevoerd, het kan zijn dat hij beperkt is tot bepaalde Dagtypes, bv enkel op weekdagen. Het model laat toe om deze Dagtypes te beschrijven en te koppelen aan werkelijke datums (OperationeleDagen) en periodes (OperationelePeriodes) om zo te komen tot een volledige Dienstkalender. 
+</p>
+<p>
+Tot slot vermelden we nog ondersteunende klassen bv om de partijen die het vervoer aanbieden of uitvoeren (resp de Autoriteit en de Operator) aan te duiden of om Voertuigtypes en hun Passagierscapaciteit te beschrijven of een klasse die routeplanning ondersteunt (Dienstritverbinding). 
+</p>
 {% endblock %}
