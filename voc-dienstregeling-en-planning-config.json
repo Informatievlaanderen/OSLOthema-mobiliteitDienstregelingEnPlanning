@@ -1,20 +1,20 @@
 {
   "naam": "Vocabularium Mobiliteit: Dienstregeling en Planning",
-  "rapport" : "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/applicatieprofiel/mobiliteit-dienstregeling-en-planning/dienstregeling/ontwerpstandaard/2021-03-04/all-timetables-ap.jsonld",
+  "rapport" : "https://github.com/Informatievlaanderen/OSLO-Generated/raw/production/report/doc/vocabularium/mobiliteit/dienstregeling-en-planning/erkendestandaard/2022-04-21/all-dienstregeling-en-planning-voc.jsonld",
   "verantwoordelijke_organisatie": "De Lijn",
   "identificator_organisatie": "http://data.vlaanderen.be/id/organisatie/OVO000100",
-  "publicatiedatum": "TBD",
-  "type_toepassing": "TBD",
+  "publicatiedatum": "2022-04-21",
+  "type_toepassing": "aanbevolen (vrijwillig)",
   "categorie": "Vocabularium",
   "beschrijving" : "voc-dienstregeling-en-planning.md",
   "specificatiedocument": [
     {
       "naam": "Vocabularium Dienstregeling en Planning",
-      "waarde": "https://data.vlaanderen.be/doc/vocabularium/mobiliteit/dienstregeling-en-planning/kandidaatstandaard/2022-03-17"
+      "waarde": "https://data.vlaanderen.be/ns/mobiliteit/dienstregeling-en-planning/"
     },
     {
       "naam": "Vocabulary Timetables and Planning",
-      "waarde": "https://purl.eu/doc/vocabulary/mobility/timetables-and-planning/candidate-standard/2022-03-17"
+      "waarde": "https://purl.eu/ns/mobility/timetables-and-planning"
     }
   ],
   "documentatie": [],
@@ -62,7 +62,7 @@
   ],
   "functioneel_toepassingsgebied": "Semantische standaard voor informatie over dienstregeling- en planningsinformatie",
   "organisatorisch_werkingsgebied": "alle entiteiten van de Vlaamse overheid",
-  "datum_van_aanmelding": "TBD",
-  "erkenning_werkgroep_datastandaarden": "TBD",
-  "erkenning_stuurgroep": "TBD"
+  "datum_van_aanmelding": "2020-11-12",
+  "erkenning_werkgroep_datastandaarden": "2022-03-17",
+  "erkenning_stuurgroep": "2022-04-21"
 }
