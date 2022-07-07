@@ -1,0 +1,64 @@
+{
+  "naam": "Applicatieprofiel Mobiliteit: Dienstregeling en Planning Tijdstabellen",
+  "rapport": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/production/report/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/tijdstabellen/erkendestandaard/2022-04-21/all-tijdstabellen-ap.jsonld",
+  "verantwoordelijke_organisatie": "De Lijn",
+  "identificator_organisatie": "http://data.vlaanderen.be/id/organisatie/OVO000100",
+  "publicatiedatum": "2022-04-21",
+  "type_toepassing": "aanbevolen (vrijwillig)",
+  "categorie": "Applicatieprofiel",
+  "beschrijving": "ap-dienstregeling-en-planning.md",
+  "specificatiedocument": [
+    {
+      "naam": "Applicatieprofiel Tijdstabellen",
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/tijdstabellen/"
+    }
+  ],
+  "documentatie": [],
+  "charter": [
+    {
+      "naam": "Werkgroep Charter OSLO Mobiliteit - Dienstregeling en Planning",
+      "waarde": "Charter - OSLO Mobiliteit - Dienstregeling en Planning.docx"
+    }
+  ],
+  "verslagen": [
+    {
+      "naam": "Verslag business werkgroep - 11 januari 2021",
+      "waarde": "20210111 - OSLO Mobiliteit - Dienstregeling en Planning - Business Werkgroep - Verslag.pdf"
+    },
+    {
+      "naam": "Verslag thematische werkgroep 1 - 8 februari 2021",
+      "waarde": "20210208 - OSLO Mobiliteit - Dienstregeling en Planning - Thematische Werkgroep 1 - Verslag.pdf"
+    },
+    {
+      "naam": "Verslag thematische werkgroep 2 - 25 maart 2021",
+      "waarde": "20210325 - OSLO Mobiliteit - Dienstregeling en Planning - Thematische werkgroep 2 - Verslag.docx"
+    },
+    {
+      "naam": "Verslag thematische werkgroep 3 - 22 april 2021",
+      "waarde": "20210422 - OSLO Mobiliteit - Dienstregeling en Planning - Thematische werkgroep 3 - Verslag.docx"
+    }
+  ],
+  "presentaties": [
+    {
+      "naam": "Presentatie business werkgroep - 11 januari 2021",
+      "waarde": "20210111 - OSLO Mobiliteit - Dienstregeling en Planning - Business Werkgroep - Presentatie.pdf"
+    },
+    {
+      "naam": "Presentatie thematische werkgroep 1 - 8 februari 2021",
+      "waarde": "20210208 - OSLO Mobiliteit - Dienstregeling en Planning - Thematische Werkgroep 1 - Presentatie.pdf"
+    },
+    {
+      "naam": "Presentatie thematische werkgroep 2 - 25 maart 2021",
+      "waarde": "20210325 - OSLO Mobiliteit - Dienstregeling en Planning - Thematische Werkgroep 2 - Presentatie.pptx"
+    },
+    {
+      "naam": "Presentatie thematische werkgroep 3 - 22 april 2021",
+      "waarde": "20210422 - OSLO Mobiliteit - Dienstregeling en Planning - Thematische Werkgroep 3 - Presentatie.pptx"
+    }
+  ],
+  "functioneel_toepassingsgebied": "Semantische standaard voor informatie over dienstregeling- en planningsinformatie",
+  "organisatorisch_werkingsgebied": "alle entiteiten van de Vlaamse overheid",
+  "datum_van_aanmelding": "2020-11-12",
+  "erkenning_werkgroep_datastandaarden": "2022-03-17",
+  "erkenning_stuurgroep": "2022-04-21"
+}
