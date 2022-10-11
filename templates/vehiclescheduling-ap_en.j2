@@ -1,5 +1,13 @@
 {% extends "purl-ap2_en.j2" %}
 
 {% block summary %}
-<p>TO DO</p>
+<p>The NETEX Belgium - Planning application profile describes how the terms from the corresponding vocabulary should be used to describe how a public transport company uses its vehicles to perform the service.</p>
+<p>The standard is based on NETEX.</p>
+<p>Block is the central class in this. A Block is a collection of consecutive Journeys completed with the same vehicle from the moment it leaves the Garage until it returns there. Blocks form the basis for the efficient deployment of vehicles and drivers, for example by sequencing Journeys of different Lines.</p>
+<p>Blocks include both Service Journeys (on which passengers can board or disembark, see NETEX-Belgium - Timetables for more info) and Dead Runs.</p>
+<p>Because Journeys are linked to Day Types (weekdays, school holidays, etc), this is also the case for the Blocks to which they belong and a Service Calendar can be drawn up by linking the Day Types to actual dates.</p>
+<p>Furthermore, Blocks are described by the Parking Points (depots) where the first Journey departs and the last one arrives. These can be further specialized to Garage Point and linked to physical Garages and service rooms (Crew Base class).</p>
+<p>The Vehicle Type with which the Journeys of the Block are carried out can also be specified, including information about the available Passenger Capacity.</p>
+<p>Because in addition to Service journeys, Dead Runs can also be described, we also have Dead Run Patterns in addition to Service Journey Patterns. More information about the Routes of these Journeys and the associated Lines follows from the association with the Route class. Furthermore, it can be specified for each Journey which Points will be visited along the way with the corresponding Passing Times (for a further description, see also NETEX Belgium - Timetables).</p>
+<p>Currently not in this standard is the linking of actual Vehicles and Drivers to Blocks. Driving Times are also out of scope right now.</p>
 {% endblock %}
