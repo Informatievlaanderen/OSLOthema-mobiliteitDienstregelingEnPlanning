@@ -1,0 +1,158 @@
+{
+	"@context": [
+		"https://raw.githubusercontent.com/GeertThijs/MyFiles/master/ContextfileTimetables.jsonld",
+		{
+			"geosparql": "http://www.opengis.net/ont/geosparql#"
+		}
+	],
+	"@graph": [
+		{
+			"@id": "_:sjp001",
+			"@type": "ServiceJourneyPattern",
+			"JourneyPattern.destinationDisplay": {
+				"@type": "DestinationDisplay",
+				"DestinationDisplay.frontText": {
+					"@value": "5 Herman-Debroux",
+					"@language": "nl"
+				}
+			},
+			"JourneyPattern.route": "_:rou001",
+			"ServiceJourneyPattern.madeUpOf": [
+				{
+					"@type": "StopPointInJourneyPattern",
+					"StopPointInJourneyPattern.order": 1,
+					"StopPointInJourneyPattern.aViewOf": "_:ssp001"
+				},
+				{},
+				{
+					"@type": "StopPointInJourneyPattern",
+					"StopPointInJourneyPattern.order": 27,
+					"StopPointInJourneyPattern.aViewOf": "_:ssp027"
+				}
+			]
+		},
+		{
+			"@id": "_:sjp002",
+			"@type": "ServiceJourneyPattern",
+			"JourneyPatter.destinationDisplay": {
+				"@type": "DestinationDisplay",
+				"DestinationDisplay.frontText": {
+					"@value": "5 Delta",
+					"@language": "nl"
+				}
+			},
+			"JourneyPattern.route": "_:rou001",
+			"ServiceJourneyPattern.madeUpOf": [
+				{
+					"@type": "StopPointInJourneyPattern",
+					"StopPointInJourneyPattern.order": 1,
+					"StopPointInJourneyPattern.aViewOf": "_:ssp001"
+				},
+				{},
+				{
+					"@type": "StopPointInJourneyPattern",
+					"StopPointInJourneyPattern.order": 25,
+					"StopPointInJourneyPattern.aViewOf": "_:ssp025"
+				}
+			]
+		},
+		{
+			"@id": "_:rou001",
+			"@type": "Route",
+			"Route.name": {
+				"@value": "Lijn 5 Erasmus - Herman-Debroux",
+				"@language": "nl"
+			},
+			"Route.through": [
+				{
+					"@type": "PointOnRoute",
+					"PointOnRoute.order": 1,
+					"PointOnRoute.aViewOf": "_:rtp001"
+				},
+				{},
+				{
+					"@type": "PointOnRoute",
+					"PointOnRoute.order": 27,
+					"PointOnRoute.aViewOf": "_:rtp027"
+				}
+			]
+		},
+		{
+			"@id": "_:ssp001",
+			"@type": "ScheduledStopPoint",
+			"ScheduledStopPoint.name": {
+				"@value": "Erasmus",
+				"@language": "nl"
+			},
+			"ScheduledStopPoint.location": "_:pnt001",
+			"ScheduledStopPoint.stopType": "https://example.com/concept/stopplacetype/metrostation"
+		},
+		{},
+		{
+			"@id": "_:ssp025",
+			"@type": "ScheduledStopPoint",
+			"ScheduledStopPoint.name": {
+				"@value": "Delta",
+				"@language": "nl"
+			},
+			"ScheduledStopPoint.location": "_:pnt025",
+			"ScheduledStopPoint.stopType": "https://example.com/concept/stopplacetype/metrostation"
+		},
+		{},
+		{
+			"@id": "_:ssp027",
+			"@type": "ScheduledStopPoint",
+			"ScheduledStopPoint.name": {
+				"@value": "Herman-Debroux",
+				"@language": "nl"
+			},
+			"ScheduledStopPoint.location": "_:pnt027",
+			"ScheduledStopPoint.stopType": "https://example.com/concept/stopplacetype/metrostation"
+		},
+		{
+			"@id": "_:rtp001",
+			"@type": "RoutePoint",
+			"Point (class).name": {
+				"@value": "Erasmus",
+				"@language": "nl"
+			},
+			"Point (class).location": "_:pnt001"
+		},
+		{},
+		{
+			"@id": "_:rtp027",
+			"@type": "RoutePoint",
+			"Point (class).name": {
+				"@value": "Herman-Debroux",
+				"@language": "nl"
+			},
+			"Point (class).location": "_:pnt027"
+		},
+		{
+			"@id": "_:pnt001",
+			"@type": "Point (datatype)",
+			"Geometry.gml": {
+				"@value": "<gml:Point srsName=\"http:\\//www.opengis.net/def/crs/EPSG/0/31370\"><gml:coordinates>x1 y1</gml:coordinates><gml:Point>",
+				"@type": "geosparql:gmlliteral"
+			}
+		},
+		{},
+		{
+			"@id": "_:pnt025",
+			"@type": "Point (datatype)",
+			"Geometry.gml": {
+				"@value": "<gml:Point srsName=\"http:\\//www.opengis.net/def/crs/EPSG/0/31370\"><gml:coordinates>x25 y25</gml:coordinates><gml:Point>",
+				"@type": "geosparql:gmlliteral"
+			}
+		},
+		{},
+		{
+			"@id": "_:pnt027",
+			"@type": "Point (datatype)",
+			"Geometry.gml": {
+				"@value": "<gml:Point srsName=\"http:\\//www.opengis.net/def/crs/EPSG/0/31370\"><gml:coordinates>x28 y28</gml:coordinates><gml:Point>",
+				"@type": "geosparql:gmlliteral"
+			}
+		}
+	]
+}

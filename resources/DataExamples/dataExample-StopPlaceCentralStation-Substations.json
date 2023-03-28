@@ -1,0 +1,102 @@
+{
+	"@context": [
+		"https://raw.githubusercontent.com/GeertThijs/MyFiles/master/ContextfileStopPlaces.jsonld",
+		"https://raw.githubusercontent.com/GeertThijs/MyFiles/master/ContextfileTimetables.jsonld"
+	],
+	"@graph": [
+		{
+			"@id": "_:stp001",
+			"@type": "StopPlace",
+			"StopPlace.name": {
+				"@value": "Centraal Station",
+				"@language": "nl"
+			},
+			"StopPlace.transportMode": "https://example.com/concept/transportmode/train",
+			"StopPlace.placeType": "https://example.com/concept/placetype/general",
+			"StopPlace.stopPlaceType": "https://example.com/concept/stopplacetype/railstation",
+			"StopPlace.servesTopographicPlace": {
+				"@type": "TopographicPlace",
+				"TpographicPlace.name": {
+					"@value": "Brussels Hoofdstedelijk Gewest",
+					"@language": "nl"
+				}
+			},
+			"StopPlace.roadAddress": {
+				"@type": "AddressRepresentation",
+				"AddressRepresentation.fullAddress": {
+					"@value": "Europakruispunt 2, 1000 Brussel",
+					"@language": "nl"
+				}
+			}
+		},
+		{
+			"@id": "_:stp002",
+			"@type": "StopPlace",
+			"StopPlace.name": {
+				"@value": "Brussel-Centraal",
+				"@language": "nl"
+			},
+			"StopPlace.transportMode": "https://example.com/concept/transportmode/train",
+			"StopPlace.placeType": "https://example.com/concept/placetype/monomodal",
+			"StopPlace.stopPlaceType": "https://example.com/concept/stopplacetype/railstation",
+			"StopPlace.parentSite": "_:stp001",
+			"StopPlace.scheduledStopPoint": [
+				{
+					"@id": "_:spp016",
+					"@type": "ScheduledStopPoint",
+					"ScheduledStopPoint.name": {
+						"@value": "Brussel-Centraal",
+						"@language": "nl"
+					},
+					"ScheduledStopPoint.stopType": "https://example.com/concept/stopplacetype/trainstation"
+				}
+			]
+		},
+		{
+			"@id": "_:stp003",
+			"@type": "StopPlace",
+			"StopPlace.name": {
+				"@value": "Centraal Station",
+				"@language": "nl"
+			},
+			"StopPlace.transportMode": "https://example.com/concept/transportmode/metro",
+			"StopPlace.placeType": "https://example.com/concept/placetype/monomodal",
+			"StopPlace.stopPlaceType": "https://example.com/concept/stopplacetype/metrostation",
+			"StopPlace.parentSite": "_:stp001",
+			"StopPlace.scheduledStopPoint": [
+				{
+					"@id": "_:spp089",
+					"@type": "ScheduledStopPoint",
+					"ScheduledStopPoint.name": {
+						"@value": "Centraal Station",
+						"@language": "nl"
+					},
+					"ScheduledStopPoint.stopType": "https://example.com/concept/stopplacetype/trainstation"
+				}
+			]
+		},
+		{
+			"@id": "_:stp004",
+			"@type": "StopPlace",
+			"StopPlace.name": {
+				"@value": "Centraal Station",
+				"@language": "nl"
+			},
+			"StopPlace.transportMode": "https://example.com/concept/transportmode/bus",
+			"StopPlace.placeType": "https://example.com/concept/placetype/monomodal",
+			"StopPlace.stopPlaceType": "https://example.com/concept/stopplacetype/busstation",
+			"StopPlace.parentSite": "_:stp001",
+			"StopPlace.scheduledStopPoint": [
+				{
+					"@id": "_:spp099",
+					"@type": "ScheduledStopPoint",
+					"ScheduledStopPoint.name": {
+						"@value": "Centraal Station",
+						"@language": "nl"
+					},
+					"ScheduledStopPoint.stopType": "https://example.com/concept/stopplacetype/busstation"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,107 @@
+{
+	"@context": [
+		"https://raw.githubusercontent.com/GeertThijs/MyFiles/master/ContextfileStopPlaces.jsonld",
+		"https://raw.githubusercontent.com/GeertThijs/MyFiles/master/ContextfileTimetables.jsonld"
+	],
+	"@graph": [
+		{
+			"@id": "_:stp002",
+			"@type": "StopPlace",
+			"StopPlace.name": {
+				"@value": "Brussel-Centraal",
+				"@language": "nl"
+			},
+			"StopPlace.transportMode": "https://example.com/concept/transportmode/train",
+			"StopPlace.placeType": "https://example.com/concept/placetype/monomodal",
+			"StopPlace.stopPlaceType": "https://example.com/concept/stopplacetype/railstation",
+			"StopPlace.scheduledStopPoint": [
+				{
+					"@id": "_:spp016",
+					"@type": "ScheduledStopPoint",
+					"ScheduledStopPoint.name": {
+						"@value": "Brussel-Centraal",
+						"@language": "nl"
+					},
+					"ScheduledStopPoint.stopType": "https://example.com/concept/stopplacetype/trainstation"
+				}
+			],
+			"StopPlace.containing": [
+				{
+					"@type": "Quay",
+					"Quay.publicCode": "1"
+				},
+				{
+					"@type": "Quay",
+					"Quay.publicCode": "2"
+				},
+				{
+					"@type": "Quay",
+					"Quay.publicCode": "3"
+				},
+				{
+					"@type": "Quay",
+					"Quay.publicCode": "4"
+				},
+				{
+					"@type": "Quay",
+					"Quay.publicCode": "5"
+				},
+				{
+					"@type": "Quay",
+					"Quay.publicCode": "6"
+				}
+			],
+			"StopPlace.enteredThrough": [
+				{
+					"@type": "StopPlaceEntrance",
+					"Entrance.name": {
+						"@value": "Europakruispunt",
+						"@language": "nl"
+					}
+				},
+				{
+					"@type": "StopPlaceEntrance",
+					"Entrance.name": {
+						"@value": "Kantersteen",
+						"@language": "nl"
+					}
+				},
+				{
+					"@type": "StopPlaceEntrance",
+					"Entrance.name": {
+						"@value": "Putterij",
+						"@language": "nl"
+					}
+				},
+				{
+					"@type": "StopPlaceEntrance",
+					"Entrance.name": {
+						"@value": "Hortagalerij",
+						"@language": "nl"
+					}
+				},
+				{
+					"@type": "StopPlaceEntrance",
+					"Entrance.name": {
+						"@value": "Grasmarkt",
+						"@language": "nl"
+					}
+				},
+				{
+					"@type": "StopPlaceEntrance",
+					"Entrance.name": {
+						"@value": "Kunstberg",
+						"@language": "nl"
+					}
+				},
+				{
+					"@type": "StopPlaceEntrance",
+					"Entrance.name": {
+						"@value": "Magdalena",
+						"@language": "nl"
+					}
+				}
+			]
+		}
+	]
+}

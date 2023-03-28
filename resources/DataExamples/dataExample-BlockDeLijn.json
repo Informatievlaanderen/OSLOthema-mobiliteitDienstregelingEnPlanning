@@ -1,0 +1,206 @@
+{
+	"@context": [
+		"https://raw.githubusercontent.com/GeertThijs/MyFiles/master/ContextfileVehicleScheduling.jsonld",
+		"https://raw.githubusercontent.com/GeertThijs/MyFiles/master/ContextfileTimetables.jsonld",
+		{
+			"TimeTabledPassingTime.pointInJourneyPattern": {
+				"@reverse": "https://purl.eu/ns/mobility/timetables-and-planning#at"
+			}
+		}
+	],
+	"@graph": [
+		{
+			"@id": "_:264-6407/51152",
+			"@type": "Block",
+			"Block.including": [
+				"_:36449481",
+				"_:36446858",
+				"",
+				"_:36457225"
+			]
+		},
+		{
+			"@id": "_:36449481",
+			"@type": "ServiceJourney",
+			"VehicleJourney.departureTime": "09:07:00.000",
+			"VehicleJourney.madeUsing": "_:sjp001",
+			"VehicleJourney.dayType": "_:Calendar51152",
+			"VehicleJourney.passedAt": [
+				{
+					"@type": "TimeTabledPassingTime",
+					"TimeTabledPassingTime.departureTime": "09:07:00.000",
+					"TimeTabledPassingTime.pointInJourneyPattern": {
+						"@type": "StopPointInJourneyPattern",
+						"StopPointInJourneyPattern.order": 1,
+						"StopPointInJourneyPattern.aViewOf": "_:ssp001"
+					}
+				},
+				{},
+				{
+					"@type": "TimeTabledPassingTime",
+					"TimeTabledPassingTime.arrivalTime": "09:55:00.000",
+					"TimeTabledPassingTime.pointInJourneyPattern": {
+						"@type": "StopPointInJourneyPattern",
+						"StopPointInJourneyPattern.order": 34,
+						"StopPointInJourneyPattern.aViewOf": "_:ssp002"
+					}
+				}
+			]
+		},
+		{
+			"@id": "_:36446858",
+			"@type": "ServiceJourney",
+			"VehicleJourney.departureTime": "10:00:00.000",
+			"VehicleJourney.madeUsing": "_:sjp002",
+			"VehicleJourney.dayType": "_:Calendar51152",
+			"VehicleJourney.passedAt": [
+				{
+					"@type": "TimeTabledPassingTime",
+					"TimeTabledPassingTime.departureTime": "10:00:00.000",
+					"TimeTabledPassingTime.pointInJourneyPattern": {
+						"@type": "StopPointInJourneyPattern",
+						"StopPointInJourneyPattern.order": 1,
+						"StopPointInJourneyPattern.aViewOf": "_:ssp003"
+					}
+				},
+				{},
+				{
+					"@type": "TimeTabledPassingTime",
+					"TimeTabledPassingTime.arrivalTime": "10:31:00.000",
+					"TimeTabledPassingTime.pointInJourneyPattern": {
+						"@type": "StopPointInJourneyPattern",
+						"StopPointInJourneyPattern.order": 19,
+						"StopPointInJourneyPattern.aViewOf": "_:ssp004"
+					}
+				}
+			]
+		},
+		{},
+		{
+			"@id": "_:36457225",
+			"@type": "ServiceJourney",
+			"VehicleJourney.departureTime": "19:04:00.000",
+			"VehicleJourney.madeUsing": "_:sjp003",
+			"VehicleJourney.dayType": "_:Calendar51152",
+			"VehicleJourney.passedAt": [
+				{
+					"@type": "TimeTabledPassingTime",
+					"TimeTabledPassingTime.departureTime": "19:04:00.000",
+					"TimeTabledPassingTime.pointInJourneyPattern": {
+						"@type": "StopPointInJourneyPattern",
+						"StopPointInJourneyPattern.order": 1,
+						"StopPointInJourneyPattern.aViewOf": "_:ssp005"
+					}
+				},
+				{},
+				{
+					"@type": "TimeTabledPassingTime",
+					"TimeTabledPassingTime.arrivalTime": "19:56:00.000",
+					"TimeTabledPassingTime.pointInJourneyPattern": {
+						"@type": "StopPointInJourneyPattern",
+						"StopPointInJourneyPattern.order": 44,
+						"StopPointInJourneyPattern.aViewOf": "_:ssp006"
+					}
+				}
+			]
+		},
+		{
+			"@id": "_:sjp001",
+			"@type": "ServiceJourneyPattern",
+			"JourneyPattern.destinationDisplay": {
+				"@type": "DestinationDisplay",
+				"DestinationDisplay.frontText": {
+					"@value": "lijn 45 Maastricht/Maaseik-Hasselt",
+					"@language": "nl"
+				}
+			}
+		},
+		{
+			"@id": "_:sjp002",
+			"@type": "ServiceJourneyPattern",
+			"JourneyPattern.destinationDisplay": {
+				"@type": "DestinationDisplay",
+				"DestinationDisplay.frontText": {
+					"@value": "lijn 1 Hasselt-Genk",
+					"@language": "nl"
+				}
+			}
+		},
+		{
+			"@id": "_:sjp003",
+			"@type": "ServiceJourneyPattern",
+			"JourneyPattern.destinationDisplay": {
+				"@type": "DestinationDisplay",
+				"DestinationDisplay.frontText": {
+					"@value": "lijn G1 Sledderlo-Waterschei",
+					"@language": "nl"
+				}
+			}
+		},
+		{
+			"@id": "_:ssp001",
+			"@type": "ScheduledStopPoint",
+			"ScheduledStopPoint.name": {
+				"@value": "Maastricht Station perron D",
+				"@language": "nl"
+			},
+			"ScheduledStopPoint.stopType": "https://example.com/concept/stopplacetype/busstation"
+		},
+		{
+			"@id": "_:ssp002",
+			"@type": "ScheduledStopPoint",
+			"ScheduledStopPoint.name": {
+				"@value": "Hasselt Station perron 13",
+				"@language": "nl"
+			},
+			"ScheduledStopPoint.stopType": "https://example.com/concept/stopplacetype/busstation"
+		},
+		{
+			"@id": "_:ssp003",
+			"@type": "ScheduledStopPoint",
+			"ScheduledStopPoint.name": {
+				"@value": "Hasselt Station perron 11",
+				"@language": "nl"
+			},
+			"ScheduledStopPoint.stopType": "https://example.com/concept/stopplacetype/busstation"
+		},
+		{
+			"@id": "_:ssp004",
+			"@type": "ScheduledStopPoint",
+			"ScheduledStopPoint.name": {
+				"@value": "Genk Station perron 12",
+				"@language": "nl"
+			},
+			"ScheduledStopPoint.stopType": "https://example.com/concept/stopplacetype/busstation"
+		},
+		{
+			"@id": "_:ssp005",
+			"@type": "ScheduledStopPoint",
+			"ScheduledStopPoint.name": {
+				"@value": "Genk Steenbergstraat",
+				"@language": "nl"
+			},
+			"ScheduledStopPoint.stopType": "https://example.com/concept/stopplacetype/busstation"
+		},
+		{
+			"@id": "_:ssp006",
+			"@type": "ScheduledStopPoint",
+			"ScheduledStopPoint.name": {
+				"@value": "Waterschei Kerkhof",
+				"@language": "nl"
+			},
+			"ScheduledStopPoint.stopType": "https://example.com/concept/stopplacetype/busstation"
+		},
+		{
+			"@id": "_:Calendar51152",
+			"@type": "DayType",
+			"DayType.definedBy": "_src001"
+		},
+		{
+			"@id": "_:src001",
+			"@type": "ServiceCalendar",
+			"ServiceCalendar.fromDate": "20210402",
+			"ServiceCalendar.toDate": "20210630"
+		}
+	]
+}

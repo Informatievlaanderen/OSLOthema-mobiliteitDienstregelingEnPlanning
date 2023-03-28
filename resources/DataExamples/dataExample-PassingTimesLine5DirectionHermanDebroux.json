@@ -1,0 +1,98 @@
+{
+	"@context": [
+		"https://raw.githubusercontent.com/GeertThijs/MyFiles/master/ContextfileTimetables.jsonld",
+		{
+			"geosparql": "http://www.opengis.net/ont/geosparql#",
+			"adms": "http://www.w3.org/ns/adms#",
+			"skos": "http://www.w3.org/2004/02/skos/core#",
+			"TimeTabledPassingTime.pointInJourneyPattern": {
+				"@reverse": "https://purl.eu/ns/mobility/timetables-and-planning#at"
+			}
+		}
+	],
+	"@graph": [
+		{
+			"@id": "_:svj045",
+			"@type": "ServiceJourney",
+			"ServiceJourney.madeUsing": "_:sjp001",
+			"adms:identifier": {
+				"@type": "adms:Identifier",
+				"skos:notation": {
+					"@value": "908",
+					"@type": "https://example.com/concept/identifiertype/mivbstib-journeynumber"
+				}
+			},
+			"ServiceJourney.departureTime": "09:03:00.000",
+			"VehicleJourney.passedAt": [
+				{
+					"@type": "TimeTabledPassingTime",
+					"TimeTabledPassingTime.departureTime": "09:03:00.000",
+					"TimeTabledPassingTime.pointInJourneyPattern": {
+						"@type": "StopPointInJourneyPattern",
+						"StopPointInJourneyPattern.order": 1,
+						"StopPointInJourneyPatter.aViewOf": "_:ssp001"
+					}
+				},
+				{},
+				{
+					"@type": "TimeTabledPassingTime",
+					"TimeTabledPassingTime.departureTime": "09:41:00.000",
+					"TimeTabledPassingTime.pointInJourneyPattern": {
+						"@type": "StopPointInJourneyPattern",
+						"StopPointInJourneyPattern.order": 27,
+						"StopPointInJourneyPatter.aViewOf": "_:ssp027"
+					}
+				}
+			]
+		},
+		{
+			"@id": "_:sjp001",
+			"@type": "ServiceJourneyPattern",
+			"JourneyPattern.destinationDisplay": {
+				"@type": "DestinationDisplay",
+				"DestinationDisplay.frontText": {
+					"@value": "5 Herman-Debroux",
+					"@language": "nl"
+				}
+			}
+		},
+		{
+			"@id": "_:ssp001",
+			"@type": "ScheduledStopPoint",
+			"ScheduledStopPoint.name": {
+				"@value": "Erasmus",
+				"@language": "nl"
+			},
+			"ScheduledStopPoint.location": "_:pnt001",
+			"ScheduledStopPoint.stopType": "https://example.com/concept/stopplacetype/metrostation"
+		},
+		{},
+		{
+			"@id": "_:ssp027",
+			"@type": "ScheduledStopPoint",
+			"ScheduledStopPoint.name": {
+				"@value": "Herman-Debroux",
+				"@language": "nl"
+			},
+			"ScheduledStopPoint.location": "_:pnt027",
+			"ScheduledStopPoint.stopType": "https://example.com/concept/stopplacetype/metrostation"
+		},
+		{
+			"@id": "_:pnt001",
+			"@type": "Point (datatype)",
+			"Geometry.gml": {
+				"@value": "<gml:Point srsName=\"http:\\//www.opengis.net/def/crs/EPSG/0/31370\"><gml:coordinates>x1 y1</gml:coordinates><gml:Point>",
+				"@type": "geosparql:gmlliteral"
+			}
+		},
+		{},
+		{
+			"@id": "_:pnt027",
+			"@type": "Point (datatype)",
+			"Geometry.gml": {
+				"@value": "<gml:Point srsName=\"http:\\//www.opengis.net/def/crs/EPSG/0/31370\"><gml:coordinates>x27 y27</gml:coordinates><gml:Point>",
+				"@type": "geosparql:gmlliteral"
+			}
+		}
+	]
+}

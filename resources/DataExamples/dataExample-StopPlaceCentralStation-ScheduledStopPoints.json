@@ -1,0 +1,82 @@
+{
+	"@context": [
+		"https://raw.githubusercontent.com/GeertThijs/MyFiles/master/ContextfileStopPlaces.jsonld",
+		"https://raw.githubusercontent.com/GeertThijs/MyFiles/master/ContextfileTimetables.jsonld",
+		{
+			"PointInJourneyPattern.journeyPattern": {
+				"@reverse": "https://purl.eu/ns/mobility/timetables-and-planning#JourneyPattern.madeUpOf"
+			}
+		}
+	],
+	"@graph": {
+		"@id": "_:stp001",
+		"@type": "StopPlace",
+		"StopPlace.name": {
+			"@value": "Centraal Station",
+			"@language": "nl"
+		},
+		"StopPlace.transportMode": "https://example.com/concept/transportmode/train",
+		"StopPlace.placeType": "https://example.com/concept/placetype/general",
+		"StopPlace.stopPlaceType": "https://example.com/concept/stopplacetype/railstation",
+		"StopPlace.scheduledStopPoint": [
+			{
+				"@id": "_:spp016",
+				"@type": "ScheduledStopPoint",
+				"ScheduledStopPoint.name": {
+					"@value": "Centraal Station",
+					"@language": "nl"
+				},
+				"ScheduledStopPoint.stopType": "https://example.com/concept/stopplacetype/metrostation",
+				"Point (class).viewedAs": [
+					{
+						"@type": "PointInJourneyPattern",
+						"PointInJourneyPattern.order": 16,
+						"PointInJourneyPattern.journeyPattern": {
+							"@id": "_:sjp001"
+						}
+					},
+					{
+						"@type": "PointInJourneyPattern",
+						"PointInJourneyPattern.order": 16,
+						"PointInJourneyPattern.journeyPattern": {
+							"@id": "_:sjp002"
+						}
+					},
+					{}
+				]
+			},
+			{
+				"@id": "_:spp089",
+				"@type": "ScheduledStopPoint",
+				"ScheduledStopPoint.name": {
+					"@value": "Brussel-Centraal",
+					"@language": "nl"
+				},
+				"ScheduledStopPoint.stopType": "https://example.com/concept/stopplacetype/trainstation"
+			},
+			{
+				"@id": "_:spp099",
+				"@type": "ScheduledStopPoint",
+				"ScheduledStopPoint.name": {
+					"@value": "Centraal Station",
+					"@language": "nl"
+				},
+				"ScheduledStopPoint.stopType": "https://example.com/concept/stopplacetype/busstation"
+			}
+		],
+		"StopPlace.servesTopographicPlace": {
+			"@type": "TopographicPlace",
+			"TopographicPlace.name": {
+				"@value": "Brussels Hoofdstedelijk Gewest",
+				"@language": "nl"
+			}
+		},
+		"StopPlace.roadAddress": {
+			"@type": "AddressRepresentation",
+			"AddressRepresentation.fullAddress": {
+				"@value": "Europakruispunt 2, 1000 Brussel",
+				"@language": "nl"
+			}
+		}
+	}
+}

@@ -1,0 +1,83 @@
+{
+	"@context": [
+		"https://raw.githubusercontent.com/GeertThijs/MyFiles/master/ContextfileTimetables.jsonld",
+		{
+			"geosparql": "http://www.opengis.net/ont/geosparql#",
+			"PointInJourneyPattern.journeyPattern": {
+				"@reverse": "https://purl.eu/ns/mobility/timetables-and-planning#JourneyPattern.madeUpOf"
+			},
+			"TimeTabledPassingTime.vehicleJourney": {
+				"@reverse": "https://purl.eu/ns/mobility/timetables-and-planning#passedAt"
+			}
+		}
+	],
+	"@graph": [
+		{
+			"@id": "_:spp015",
+			"@type": "ScheduledStopPoint",
+			"ScheduledStopPoint.name": {
+				"@value": "De Brouckere",
+				"@language": "nl"
+			},
+			"ScheduledStopPoint.location": "_:pnt015",
+			"ScheduledStopPoint.stopType": "https://example.com/concept/stopplacetype/metrostation",
+			"Point (class).viewedAs": [
+				{
+					"@type": "PointInJourneyPattern",
+					"PointInJourneyPattern.order": 15,
+					"PointInJourneyPattern.journeyPattern": {
+						"@id": "_:sjp001"
+					},
+					"PointInJourneyPattern.at": [
+						{
+							"@type": "TimeTabledPassingTime",
+							"TimeTabledPassingTime.departureTime": "05:36:00.000",
+							"TimeTabledPassingTime.vehicleJourney": {
+								"@id": "_:svj001"
+							}
+						},
+						{},
+						{
+							"@type": "TimeTabledPassingTime",
+							"TimeTabledPassingTime.departureDayOffset": 1,
+							"TimeTabledPassingTime.departureTime": "00:42:00.000",
+							"TimeTabledPassingTime.vehicleJourney": {
+								"@id": "_:svj0nn"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"@id": "_:svj001",
+			"@type": "ServiceJourney",
+			"ServiceJourney.madeUsing": "_:sjp001"
+		},
+		{},
+		{
+			"@id": "_:svj0NN",
+			"@type": "ServiceJourney",
+			"ServiceJourney.madeUsing": "_:sjp001"
+		},
+		{
+			"@id": "_:sjp001",
+			"@type": "ServiceJourneyPattern",
+			"JourneyPattern.destinationDisplay": {
+				"@type": "DestinationDisplay",
+				"DestinationDisplay.frontText": {
+					"@value": "5 Herman-Debroux",
+					"@language": "nl"
+				}
+			}
+		},
+		{
+			"@id": "_:pnt015",
+			"@type": "Point (datatype)",
+			"Geometry.gml": {
+				"@value": "<gml:Point srsName=\"http:\\//www.opengis.net/def/crs/EPSG/0/31370\"><gml:coordinates>x1 y1</gml:coordinates><gml:Point>",
+				"@type": "geosparql:gmlliteral"
+			}
+		}
+	]
+}
