@@ -13,7 +13,7 @@
   "contributors-column": "Dienstregeling",
   "site": "site-skeleton/tijdstabellen-ap",
   "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-mobiliteitDienstregelingEnPlanning/issues",
-  "standaardregisterurl": "https://data.vlaanderen.be/standaarden/kandidaat-standaard/applicatieprofielen-mobiliteit-dienstregeling-en-planning.html"
+  "standaardregisterurl": "https://data.vlaanderen.be/standaarden/applicatieprofiel-mobiliteit-dienstregeling-en-planning-tijdstabellen/"
 },
 {
   "name": "stopplaatsen-ap",
@@ -29,7 +29,7 @@
   "contributors-column": "Dienstregeling",
   "site": "site-skeleton/stopplaatsen-ap",
   "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-mobiliteitDienstregelingEnPlanning/issues",
-  "standaardregisterurl": "https://data.vlaanderen.be/standaarden/kandidaat-standaard/applicatieprofielen-mobiliteit-dienstregeling-en-planning.html"
+  "standaardregisterurl": "https://data.vlaanderen.be/standaarden/applicatieprofiel-mobiliteit-dienstregeling-en-planning-stopplaatsen/"
 },
 {
   "name": "voertuigplanning-ap",
@@ -45,7 +45,7 @@
   "contributors-column": "Dienstregeling",
   "site": "site-skeleton/voertuigplanning-ap",
   "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-mobiliteitDienstregelingEnPlanning/issues",
-  "standaardregisterurl": "https://data.vlaanderen.be/standaarden/kandidaat-standaard/applicatieprofielen-mobiliteit-dienstregeling-en-planning.html"
+  "standaardregisterurl": "https://data.vlaanderen.be/standaarden/applicatieprofiel-mobiliteit-dienstregeling-en-planning-voertuigplanning/"
 },
 {
   "name": "dienstregeling-en-planning-voc",
@@ -61,6 +61,6 @@
   "contributors-file": "stakeholders.csv",
   "contributors-column": "Dienstregeling",
   "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-mobiliteitDienstregelingEnPlanning/issues",
-  "standaardregisterurl": "https://data.vlaanderen.be/standaarden/standaard-in-ontwikkeling/applicatieprofielen-mobiliteit-dienstregeling-en-planning.html"
+  "standaardregisterurl": "https://data.vlaanderen.be/standaarden/vocabularium-mobiliteit-dienstregeling-en-planning/"
 }
 ]
