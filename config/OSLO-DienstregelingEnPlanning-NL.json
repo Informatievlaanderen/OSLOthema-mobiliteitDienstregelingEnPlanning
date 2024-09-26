@@ -48,7 +48,7 @@
   "standaardregisterurl": "https://data.vlaanderen.be/standaarden/applicatieprofiel-mobiliteit-dienstregeling-en-planning-voertuigplanning/"
 },
 {
-  "name": "dienstregeling-en-planning-voc",
+  "name": "dienstregeling-en-planning",
   "type": "voc",
   "prefix": "mobiliteit",
   "eap": "OSLO-TimetablesAndPlanning-VOC.EAP",
