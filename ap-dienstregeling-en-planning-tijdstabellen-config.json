@@ -2,7 +2,7 @@
   "title": "Applicatieprofiel Mobiliteit: Dienstregeling en Planning Tijdstabellen",
   "category": "Applicatieprofiel",
   "usage": "Aanbevolen (vrijwillig)",
-  "status": "erkende-standaard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "descriptionFileName": "ap-dienstregeling-en-planning.md",
   "responsibleOrganisation": [
     {
