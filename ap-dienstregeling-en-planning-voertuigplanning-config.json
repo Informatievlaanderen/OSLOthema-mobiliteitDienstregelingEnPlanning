@@ -2,7 +2,7 @@
   "title": "Applicatieprofiel Mobiliteit: Dienstregeling en Planning Voertuigplanning",
   "category": "Applicatieprofiel",
   "usage": "aanbevolen (vrijwillig)",
-  "status": "erkende-standaard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "descriptionFileName": "ap-dienstregeling-en-planning.md",
   "responsibleOrganisation": [
     {
