@@ -2,7 +2,7 @@
   "title": "Vocabularium Mobiliteit: Dienstregeling en Planning",
   "category": "Vocabularium",
   "usage": "aanbevolen (vrijwillig)",
-  "status": "erkende-standaard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "descriptionFileName": "voc-dienstregeling-en-planning.md",
   "responsibleOrganisation": [
     {
