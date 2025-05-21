@@ -1,6 +1,6 @@
 {
   "title": "Vocabularium Mobiliteit: Dienstregeling en Planning",
-  "category": "Vocabularium",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium",
   "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "descriptionFileName": "voc-dienstregeling-en-planning.md",
