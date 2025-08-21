@@ -1,3 +1,13 @@
 2025-01-03
 - update stopplaatsen to be processable with toolchain 4
 
+2025-08-21
+  timetables
+   - https://data.test-vlaanderen.be/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/tijdstabellen/erkendestandaard/2022-04-21/#Dienstrit%3Aflexibele%20lijn%20view bestaat niet in NETEX op purl.org.     vermoeden is dat dit een fout is.
+   - https://data.test-vlaanderen.be/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/tijdstabellen/ontwerpstandaard/toolchain4/#EigenschapvanDag%3Adagvandemaand heeft range
+   - Vlaamse versie heeft https://data.test-vlaanderen.be/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/tijdstabellen/erkendestandaard/2022-04-21/#Passagier%20Stopplaatstoewijzing extra eigenschappen. 
+    https://data.test-vlaanderen.be/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/tijdstabellen/erkendestandaard/2022-04-21/#Stopplaats%20in%20Ritpatroon%3Aflexibele%20punteigenschappen
+   - Vlaamse versie heeft https://data.test-vlaanderen.be/doc/applicatieprofiel/mobiliteit/dienstregeling-en-planning/tijdstabellen/erkendestandaard/2022-04-21/#Punt%3Aprojectie eigenschap teveel
+
+
+
