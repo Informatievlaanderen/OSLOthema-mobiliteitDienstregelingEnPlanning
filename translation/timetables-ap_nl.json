@@ -79,7 +79,7 @@
       "EA-Guid": "{3567592C-EC4A-46b1-B36D-DA99174CA4ED}",
       "definition": {
         "en": "Each PointInJourneyPattern specifies the visit of a Service to a specific Point in a particular order within the pattern.",
-        "nl": "Elk PuntInReispatroon specifieert het bezoek van een Dienst aan een sepcifiek Punt in een bepaalde volgorde binnen het patroon."
+        "nl": "Elk PuntInReispatroon specifieert het bezoek van een Dienst aan een specifiek Punt in een bepaalde volgorde binnen het patroon."
       },
       "label": {
         "en": "PointInJourneyPattern",
@@ -103,7 +103,7 @@
       "EA-Guid": "{275B190A-A05F-4f64-A7A2-ECCDCEB35F5F}",
       "definition": {
         "en": "An ordered list of located Points defining one single path through the road (or rail) network. A Route may pass through the same Point more than once.",
-        "nl": "Een geordende lijst van gelokaliseerde punten die één enkel pad door het wegenent (of spoorwegnet) definiëren. Een route kan meer dan eens door hetzelfde Punt lopen."
+        "nl": "Een geordende lijst van gelokaliseerde punten die één enkel pad door het wegennent (of spoorwegnet) definiëren. Een route kan meer dan eens door hetzelfde Punt lopen."
       },
       "label": {
         "en": "Route",
@@ -119,7 +119,7 @@
       },
       "label": {
         "en": "RouteLink",
-        "nl": "Routekoppeling"
+        "nl": "RouteKoppeling"
       }
     },
     {
@@ -131,7 +131,7 @@
       },
       "label": {
         "en": "RoutePoint",
-        "nl": "Routepunt"
+        "nl": "RoutePunt"
       }
     },
     {
@@ -143,7 +143,7 @@
       },
       "label": {
         "en": "ScheduledStopPoint",
-        "nl": "GeplandeHalteplaats"
+        "nl": "GeplandeStopPlaats"
       }
     },
     {
@@ -155,7 +155,7 @@
       },
       "label": {
         "en": "ServiceJourney",
-        "nl": "Dienstreis"
+        "nl": "DienstReis"
       }
     },
     {
@@ -167,7 +167,7 @@
       },
       "label": {
         "en": "ServiceJourneyLink",
-        "nl": "DienstreisVerbinding"
+        "nl": "DienstReisVerbinding"
       }
     },
     {
@@ -175,11 +175,11 @@
       "EA-Guid": "{32E75250-45C3-42a5-9A14-4504F19FF35A}",
       "definition": {
         "en": "The JourneyPattern for a (passenger carrying) ServiceJourney.",
-        "nl": "Het Reispatroon voor een (passagiersvervoerende) dienstreis."
+        "nl": "Het ReisPatroon voor een (passagiersvervoerende) dienstreis."
       },
       "label": {
         "en": "ServiceJourneyPattern",
-        "nl": "Dienstreispatroon"
+        "nl": "DienstReisPatroon"
       }
     },
     {
@@ -191,7 +191,7 @@
       },
       "label": {
         "en": "ServiceLink",
-        "nl": "Dienstverbinding"
+        "nl": "DienstVerbinding"
       }
     },
     {
@@ -203,7 +203,7 @@
       },
       "label": {
         "en": "StopPlace",
-        "nl": "Halteplaats"
+        "nl": "StopPlaats"
       }
     },
     {
@@ -215,7 +215,7 @@
       },
       "label": {
         "en": "StopPointInJourneyPattern",
-        "nl": "StopplaatsInReispatroon"
+        "nl": "StopPlaatsInReisPatroon"
       }
     },
     {
@@ -227,7 +227,7 @@
       },
       "label": {
         "en": "TimeTabledPassingTime",
-        "nl": "Dienstregelingdoorkomsttijd"
+        "nl": "DienstregelingDoorkomstTijd"
       }
     },
     {
@@ -239,7 +239,7 @@
       },
       "label": {
         "en": "VehicleJourney",
-        "nl": "Voertuigreis"
+        "nl": "VoertuigReis"
       }
     }
   ],
@@ -261,7 +261,7 @@
       },
       "label": {
         "en": "accessModes",
-        "nl": "toegangsmodi"
+        "nl": "toegangsModi"
       }
     },
     {
@@ -273,7 +273,7 @@
       },
       "label": {
         "en": "accessabilityAssesment",
-        "nl": "toegankelijkheidsbeoordeling"
+        "nl": "toegankelijkheidsBeoordeling"
       }
     },
     {
@@ -297,7 +297,7 @@
       },
       "label": {
         "en": "linestring",
-        "nl": "PolygonaleLijn"
+        "nl": "lijnmarkering"
       }
     },
     {
@@ -309,7 +309,7 @@
       },
       "label": {
         "en": "linestring",
-        "nl": "PolygonaleLijn"
+        "nl": "lijnmarkering"
       }
     },
     {
@@ -393,7 +393,7 @@
       },
       "label": {
         "en": "placeType",
-        "nl": "plaatssoort"
+        "nl": "plaatsSoort"
       }
     },
     {
@@ -405,7 +405,7 @@
       },
       "label": {
         "en": "polygon",
-        "nl": "veelhoek"
+        "nl": "polygoon"
       }
     },
     {
@@ -417,7 +417,7 @@
       },
       "label": {
         "en": "roadAddress",
-        "nl": "straatadres"
+        "nl": "straatAdres"
       }
     },
     {
@@ -429,7 +429,7 @@
       },
       "label": {
         "en": "aViewOf",
-        "nl": "Enter your translation here"
+        "nl": "eenZichtOp"
       }
     },
     {
@@ -465,7 +465,7 @@
       },
       "label": {
         "en": "arrivalDayOffset",
-        "nl": "aankomstdagcompensatie"
+        "nl": "aankomstDagCompensatie"
       }
     },
     {
@@ -477,7 +477,7 @@
       },
       "label": {
         "en": "arrivalStop",
-        "nl": "aankomsthalte"
+        "nl": "aankomstHalte"
       }
     },
     {
@@ -489,7 +489,7 @@
       },
       "label": {
         "en": "arrivalTime",
-        "nl": "aankomsttijd"
+        "nl": "aankomstTijd"
       }
     },
     {
@@ -501,7 +501,7 @@
       },
       "label": {
         "en": "arrivalTime",
-        "nl": "aankomsttijd"
+        "nl": "aankomstTijd"
       }
     },
     {
@@ -525,7 +525,7 @@
       },
       "label": {
         "en": "composedOf",
-        "nl": "samengesteld door"
+        "nl": "samengesteldDoor"
       }
     },
     {
@@ -549,7 +549,7 @@
       },
       "label": {
         "en": "departureDayOffset",
-        "nl": "vertrekdagcompensatie"
+        "nl": "vertrekDagVerschil"
       }
     },
     {
@@ -561,7 +561,7 @@
       },
       "label": {
         "en": "departureStop",
-        "nl": "vertrekhalte"
+        "nl": "vertrekHalte"
       }
     },
     {
@@ -573,7 +573,7 @@
       },
       "label": {
         "en": "departureTime",
-        "nl": "vertrektijd"
+        "nl": "vertrekTijd"
       }
     },
     {
@@ -585,7 +585,7 @@
       },
       "label": {
         "en": "departureTime",
-        "nl": "vertrektijd"
+        "nl": "vertrekTijd"
       }
     },
     {
@@ -597,7 +597,7 @@
       },
       "label": {
         "en": "departureTime",
-        "nl": "vertrektijd"
+        "nl": "vertrekTijd"
       }
     },
     {
@@ -617,7 +617,7 @@
       "EA-Guid": "{4BAF7D3E-D558-400c-9F88-69E4E4177F0F}",
       "definition": {
         "en": "TODO",
-        "nl": "bestemming"
+        "nl": "Enter your translation here"
       },
       "label": {
         "en": "directionRef",
@@ -645,7 +645,7 @@
       },
       "label": {
         "en": "endOf",
-        "nl": "EindeVan"
+        "nl": "eindeVan"
       }
     },
     {
@@ -657,7 +657,7 @@
       },
       "label": {
         "en": "endOf",
-        "nl": "EindeVan"
+        "nl": "eindeVan"
       }
     },
     {
@@ -853,7 +853,7 @@
       },
       "label": {
         "en": "forAlighting",
-        "nl": "Uitstappen"
+        "nl": "voorUitstappen"
       }
     },
     {
@@ -865,7 +865,7 @@
       },
       "label": {
         "en": "forAlighting",
-        "nl": "Uitstappen"
+        "nl": "voorUitstappen"
       }
     },
     {
@@ -877,7 +877,7 @@
       },
       "label": {
         "en": "forBoarding",
-        "nl": "Instappen"
+        "nl": "voorInstappen"
       }
     },
     {
@@ -889,7 +889,7 @@
       },
       "label": {
         "en": "forBoarding",
-        "nl": "Instappen"
+        "nl": "voorInstappen"
       }
     },
     {
@@ -1057,7 +1057,7 @@
       },
       "label": {
         "en": "publicCode",
-        "nl": "openbareCode"
+        "nl": "publiekeCode"
       }
     },
     {
@@ -1069,7 +1069,7 @@
       },
       "label": {
         "en": "publicCode",
-        "nl": "openbareCode"
+        "nl": "publiekeCode"
       }
     },
     {
@@ -1093,7 +1093,7 @@
       },
       "label": {
         "en": "serves",
-        "nl": "dienen"
+        "nl": "dient"
       }
     },
     {
@@ -1129,7 +1129,7 @@
       },
       "label": {
         "en": "stopPlaceType",
-        "nl": "halteplaatsType"
+        "nl": "stopPlaatsType"
       }
     },
     {
@@ -1177,7 +1177,7 @@
       },
       "label": {
         "en": "transportMode",
-        "nl": "transport modus"
+        "nl": "transportModus"
       }
     },
     {
@@ -1189,7 +1189,7 @@
       },
       "label": {
         "en": "transportmode",
-        "nl": "transport modus"
+        "nl": "transportModus"
       }
     },
     {
@@ -1201,7 +1201,7 @@
       },
       "label": {
         "en": "transportmode",
-        "nl": "transport modus"
+        "nl": "transportModus"
       }
     },
     {
