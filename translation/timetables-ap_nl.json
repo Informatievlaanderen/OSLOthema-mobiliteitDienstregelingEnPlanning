@@ -6,12 +6,12 @@
       "name": "GroupOfLines",
       "EA-Guid": "{155B734B-568D-43df-9C4B-545626759369}",
       "definition": {
-        "en": "GroupOfLines can be used to define several kinds of PT networks and sub-networks: what is usually called a public transport network is in fact only a specific GroupOfLines and a Line may belong to several of them.",
-        "nl": "Enter your translation here"
+        "en": "GroupOfLines can be used to define several kinds of PT networks and sub-networks: what is usually called a public transport networkis in fact only a specific GroupOfLines and a Line may belong to several of them.",
+        "nl": "GroepVanLijnen kan gebruikt om meerdere soorten van PT-netwerken en subnetwerken te definiëren: wat gewoonlijk een openbaarvervoernetwerk wordt genoemd, is in feite slechts een specifieke GroepVanLijnen en een Lijn kan tot meerdere van hen behoren."
       },
       "label": {
         "en": "GroupOfLines",
-        "nl": "GROEP VAN LIJNEN"
+        "nl": "GroepVanLijnen"
       }
     },
     {
@@ -19,11 +19,11 @@
       "EA-Guid": "{510B3284-BA4E-4ce6-8D1F-E55F1D0C6098}",
       "definition": {
         "en": "The JourneyPattern model is concerned with the spatial description of services, i.e. spatial aspects of the work of the vehicles. The concerns of this model are different from those of describing the Routes and Lines. The latter are describing schematic paths of vehicles through the road network, whereas JourneyPatterns describe how the work of vehicles is performed. These work patterns describe the sequence of points where\nvehicles stop with specific points being attributed with timing information. \n\nThe working pattern described by a JourneyPattern is usually related to a Route which it covers. Several JourneyPatterns may use the same Route.",
-        "nl": "Enter your translation here"
+        "nl": "Het ReisPatroon-model houdt zich bezig met de ruimtelijke beschrijving van diensten, d.w.z de ruimtelijke aspecten van de functie van de voertuigen. De aandachtspunten van dit model verschillen van die van het beschrijven van routes en lijnen. Deze laatste beschrijven paden van voertuigen door het wegennet, terwijl ReisPatronen beschrijven hoe de functie van voertuigen wordt uitgevoerd. Deze werkpatronen beschrijven de volgorde\nvan punten waar voertuigen stoppen, waarbij aan specifieke punten timinginformatie wordt toegekend. \n\nHet werkpatroon dat door een ReisPatroon wordt beschreven, houdt meestal verband met een route die het bestrijkt. Verschillende ReisPatronen kunnen dezelfde route gebruiken."
       },
       "label": {
         "en": "JourneyPattern",
-        "nl": "Enter your translation here"
+        "nl": "ReisPatroon"
       }
     },
     {
@@ -31,11 +31,11 @@
       "EA-Guid": "{D37BFABC-5966-4d16-89FC-5B4FA5F2DD66}",
       "definition": {
         "en": "A grouping of Routes that is generally known to the public by a similar name or number.",
-        "nl": "Enter your translation here"
+        "nl": "Een groep van routes die bij het publiek algemeen bekend staat onder een vergelijkbare naam of nummer."
       },
       "label": {
         "en": "Line",
-        "nl": "Enter your translation here"
+        "nl": "Lijn"
       }
     },
     {
@@ -43,11 +43,11 @@
       "EA-Guid": "{6F6926FA-EFCB-4597-AFDC-1F1D318A5482}",
       "definition": {
         "en": "A Network is a named grouping of Lines under which a Transport network is known.",
-        "nl": "Enter your translation here"
+        "nl": "Een netwerk is een benoemde groep lijnen waaronder een vervoersnetwerk bekend staat."
       },
       "label": {
         "en": "Network",
-        "nl": "Enter your translation here"
+        "nl": "Netwerk"
       }
     },
     {
@@ -55,11 +55,11 @@
       "EA-Guid": "{C98F5C69-E097-4582-AAA2-9155332B35F2}",
       "definition": {
         "en": "A PassengerStopAssignment is the allocation of a ScheduledStopPoint  to a StopPlace.",
-        "nl": "Enter your translation here"
+        "nl": "Een PassagierStopToewijzing is de toewijzing van een GeplandeHalteplaats aan een Stopplaats."
       },
       "label": {
         "en": "PassengerStopAssignment",
-        "nl": "Enter your translation here"
+        "nl": "PassagierStopToewijzing"
       }
     },
     {
@@ -67,11 +67,11 @@
       "EA-Guid": "{26D5DAB9-4B77-476e-B3B2-46441002A3C8}",
       "definition": {
         "en": "A 0-dimensional node of the network used for the spatial description of the network. Points may be located by a Location in a given LocatingSystem.",
-        "nl": "Enter your translation here"
+        "nl": "Een 0-dimensionaal knooppunt van het netwerk dat wordt gebruikt voor de ruimtelijke beschrijving van het netwerk. Punten kunnen worden gelokaliseerd door een locatie in een bepaald Lokalisatiesysteem."
       },
       "label": {
         "en": "Point",
-        "nl": "Enter your translation here"
+        "nl": "Punt"
       }
     },
     {
@@ -79,11 +79,11 @@
       "EA-Guid": "{3567592C-EC4A-46b1-B36D-DA99174CA4ED}",
       "definition": {
         "en": "Each PointInJourneyPattern specifies the visit of a Service to a specific Point in a particular order within the pattern.",
-        "nl": "Enter your translation here"
+        "nl": "Elk PuntInReispatroon specifieert het bezoek van een Dienst aan een sepcifiek Punt in een bepaalde volgorde binnen het patroon."
       },
       "label": {
         "en": "PointInJourneyPattern",
-        "nl": "Enter your translation here"
+        "nl": "PuntInReispatroon"
       }
     },
     {
@@ -91,11 +91,11 @@
       "EA-Guid": "{C2FCB590-FFFC-493f-9516-80121EC4491B}",
       "definition": {
         "en": "A PointOnRoute indicates the sequence of a RoutePoint within a Route. This intermediate object is required to allow a Route to go several times through the same RoutePoint.",
-        "nl": "Enter your translation here"
+        "nl": "Een PuntOpDeRoute geeft de volgorde van een Routepunt binnen een Route aan. Dit tussenliggende object is nodig om een route meerdere keren door hetzelfde Routepunt te laten lopen."
       },
       "label": {
         "en": "PointOnRoute",
-        "nl": "Enter your translation here"
+        "nl": "PuntOpDeRoute"
       }
     },
     {
@@ -103,11 +103,11 @@
       "EA-Guid": "{275B190A-A05F-4f64-A7A2-ECCDCEB35F5F}",
       "definition": {
         "en": "An ordered list of located Points defining one single path through the road (or rail) network. A Route may pass through the same Point more than once.",
-        "nl": "Enter your translation here"
+        "nl": "Een geordende lijst van gelokaliseerde punten die één enkel pad door het wegenent (of spoorwegnet) definiëren. Een route kan meer dan eens door hetzelfde Punt lopen."
       },
       "label": {
         "en": "Route",
-        "nl": "Enter your translation here"
+        "nl": "Route"
       }
     },
     {
@@ -115,11 +115,11 @@
       "EA-Guid": "{6FE77E26-CD8E-423f-929B-657FD80E5489}",
       "definition": {
         "en": "A RouteLink is an oriented link between two RoutePoints allowing the definition of a unique path through the network. The same RouteLink may be used in different Routes.",
-        "nl": "Enter your translation here"
+        "nl": "Een Routekoppeling is een gerichte verbinding tussen twee Routepunten waarmee een uniek pad door het netwerk kan worden gedefinieerd. Dezelfde Routekoppeling kan in verschillende Routes worden gebruikt."
       },
       "label": {
         "en": "RouteLink",
-        "nl": "Enter your translation here"
+        "nl": "Routekoppeling"
       }
     },
     {
@@ -127,11 +127,11 @@
       "EA-Guid": "{6EED7F73-6DC0-4d27-94F9-257188DA0E28}",
       "definition": {
         "en": "A RoutePoint is a Point used to define the shape of a Route through the network. The same Point may be used in different Routes using a PointOnRoute.",
-        "nl": "Enter your translation here"
+        "nl": "Een Routepunt is een Punt dat wordt gebruikt om de vorm van een route door het netwerk te definiëren. Hetzelfde Punt kan in verschillende Routes worden gebruikt met behulp van een PuntOpDeRoute."
       },
       "label": {
         "en": "RoutePoint",
-        "nl": "Enter your translation here"
+        "nl": "Routepunt"
       }
     },
     {
@@ -139,11 +139,11 @@
       "EA-Guid": "{5D4210A5-0938-4d98-8232-DBD6597B3C00}",
       "definition": {
         "en": "A Point where passengers can board or alight from vehicles",
-        "nl": "Enter your translation here"
+        "nl": "Een Punt waar passagiers kunnen in- of uitstappen uit voertuigen."
       },
       "label": {
         "en": "ScheduledStopPoint",
-        "nl": "Enter your translation here"
+        "nl": "GeplandeHalteplaats"
       }
     },
     {
@@ -151,11 +151,11 @@
       "EA-Guid": "{B8760FF0-D987-4cd3-A2F1-E435517EE8E0}",
       "definition": {
         "en": "A ServiceJourney is a VehicleJourney on which passengers will be allowed to board or alight from vehicles at stops.",
-        "nl": "Enter your translation here"
+        "nl": "Een Dienstreis is een Voertuigreis waarbij passagiers bij haltes in en uit het voertuig mogen stappen."
       },
       "label": {
         "en": "ServiceJourney",
-        "nl": "Enter your translation here"
+        "nl": "Dienstreis"
       }
     },
     {
@@ -163,23 +163,23 @@
       "EA-Guid": "{6FB184C0-E366-45db-95FD-A8607D6A0041}",
       "definition": {
         "en": "The connection between two consecutive ScheduledStopPoints in a ServiceJourneyLink. Each ServiceJourneyLink has a particular departure and arrival time. ServiceJourneyLinks allow Routeplanners to calculate shortest Routes more easily since a Journey is executed at a specific time (on a specific DayType).",
-        "nl": "Enter your translation here"
+        "nl": "De verbinding tussen twee opeenvolgende GeplandeHalteplaatsen in een DienstreisVerbinding. Elke DienstreisVerbinding heeft een bepaalde vertrek- en aankomsttijd. Met DienstreisVerbindingen kunnen Routeplanners de kortste routes berekenen, aangezien een reis op een specifiek tijdstip (op een specifiek dagtype) wordt uitgevoerd."
       },
       "label": {
         "en": "ServiceJourneyLink",
-        "nl": "Enter your translation here"
+        "nl": "DienstreisVerbinding"
       }
     },
     {
       "name": "ServiceJourneyPattern",
       "EA-Guid": "{32E75250-45C3-42a5-9A14-4504F19FF35A}",
       "definition": {
-        "en": "The JourneyPattern for a (passenger carrying) ServiceJourney",
-        "nl": "Enter your translation here"
+        "en": "The JourneyPattern for a (passenger carrying) ServiceJourney.",
+        "nl": "Het Reispatroon voor een (passagiersvervoerende) dienstreis."
       },
       "label": {
         "en": "ServiceJourneyPattern",
-        "nl": "Enter your translation here"
+        "nl": "Dienstreispatroon"
       }
     },
     {
@@ -187,11 +187,11 @@
       "EA-Guid": "{B34C550B-F186-4036-9F5F-1F511CEB5410}",
       "definition": {
         "en": "A Link between an ordered pair of ScheduledStopPoints",
-        "nl": "Enter your translation here"
+        "nl": "Een verbinding tussen een geordend paar GeplandeHalteplaatsen"
       },
       "label": {
         "en": "ServiceLink",
-        "nl": "Enter your translation here"
+        "nl": "Dienstverbinding"
       }
     },
     {
@@ -199,11 +199,11 @@
       "EA-Guid": "{C5E97E28-D6D9-4be7-BD14-C12C3407D3EB}",
       "definition": {
         "en": "A StopPlace represents a station, stop, port, airport or any physical point of access to the transport network.",
-        "nl": "Enter your translation here"
+        "nl": "Een halteplaats is een station, halte, haven, luchthaven of een ander fysiek toegangspunt to het vervoersnetwerk."
       },
       "label": {
         "en": "StopPlace",
-        "nl": "Enter your translation here"
+        "nl": "Halteplaats"
       }
     },
     {
@@ -211,11 +211,11 @@
       "EA-Guid": "{D8C72519-1BCE-4eb0-A6D0-01AA2F1A9C9B}",
       "definition": {
         "en": "Each PointInJourneyPattern specifies the visit of a Service to a specific ScheduledStopPoint in a particular order within the pattern.",
-        "nl": "Enter your translation here"
+        "nl": "Elk PlaatsInReispatroon specificeert het bezoek van een Dienst aan een specifiek GeplandeStopplaats in een bepaalde volgorde binnen het patroon."
       },
       "label": {
         "en": "StopPointInJourneyPattern",
-        "nl": "Enter your translation here"
+        "nl": "StopplaatsInReispatroon"
       }
     },
     {
@@ -223,11 +223,11 @@
       "EA-Guid": "{40F6009E-EAD8-407d-B2F4-E4C629D750B0}",
       "definition": {
         "en": "The PassingTimes that are the result of the scheduling process and to be published in a timetable are called TimeTabledPassingTimes. \n\nThe TimeTabledPassingTimes are normally generated a long time before the day of operation and are valid over a long period of time (e.g. summer, winter timetable)",
-        "nl": "Enter your translation here"
+        "nl": "De doorkomsttijden die het resultaat zijn van het planningsproces en die in een dienstregeling worden gepubliceerd, worden Dienstregelingdoorkomsttijd genoemd. \n\nDe Dienstregelingdoorkomsttijd worden normaal gesproken lang voor de dag van uitvoering gegenereerd en zijn gedurende een lange periode geldig (bijvoorbeeld zomer- en winterdienstregeling)."
       },
       "label": {
         "en": "TimeTabledPassingTime",
-        "nl": "Enter your translation here"
+        "nl": "Dienstregelingdoorkomsttijd"
       }
     },
     {
@@ -235,11 +235,11 @@
       "EA-Guid": "{39AFA130-5303-4f09-A36D-A41AF9061529}",
       "definition": {
         "en": "A VehicleJourney is the defined movement of a vehicle using a specified JourneyPattern on a particular Route. By virtue of being defined for a DayType, a VehicleJourney is a class of journeys that would take place at the same time on each day of a specified DayType.",
-        "nl": "Enter your translation here"
+        "nl": "Een VoertuigReis is de gedefinieerde beweging van een voertuig met behulp van een gespecificeerd Reispatroon op een bepaalde Route. Omdat een Voertuigreis is gedefinieerd voor een DayType, is het een klasse van ritten die elke dag van een gespecificeerd DayType op hetzelfde tijdstip plaatsvinden."
       },
       "label": {
         "en": "VehicleJourney",
-        "nl": "Enter your translation here"
+        "nl": "Voertuigreis"
       }
     }
   ],
@@ -261,7 +261,7 @@
       },
       "label": {
         "en": "accessModes",
-        "nl": "Enter your translation here"
+        "nl": "toegangsmodi"
       }
     },
     {
@@ -273,7 +273,7 @@
       },
       "label": {
         "en": "accessabilityAssesment",
-        "nl": "Enter your translation here"
+        "nl": "toegankelijkheidsbeoordeling"
       }
     },
     {
@@ -285,7 +285,7 @@
       },
       "label": {
         "en": "centroid",
-        "nl": "Enter your translation here"
+        "nl": "zwaartepunt"
       }
     },
     {
@@ -297,7 +297,7 @@
       },
       "label": {
         "en": "linestring",
-        "nl": "Enter your translation here"
+        "nl": "PolygonaleLijn"
       }
     },
     {
@@ -309,7 +309,7 @@
       },
       "label": {
         "en": "linestring",
-        "nl": "Enter your translation here"
+        "nl": "PolygonaleLijn"
       }
     },
     {
@@ -321,7 +321,7 @@
       },
       "label": {
         "en": "location",
-        "nl": "Enter your translation here"
+        "nl": "locatie"
       }
     },
     {
@@ -333,7 +333,7 @@
       },
       "label": {
         "en": "location",
-        "nl": "Enter your translation here"
+        "nl": "locatie"
       }
     },
     {
@@ -345,7 +345,7 @@
       },
       "label": {
         "en": "madeUsing",
-        "nl": "Enter your translation here"
+        "nl": "GemaaktMetBehulpVan"
       }
     },
     {
@@ -381,7 +381,7 @@
       },
       "label": {
         "en": "name",
-        "nl": "Enter your translation here"
+        "nl": "naam"
       }
     },
     {
@@ -393,7 +393,7 @@
       },
       "label": {
         "en": "placeType",
-        "nl": "Enter your translation here"
+        "nl": "plaatssoort"
       }
     },
     {
@@ -405,7 +405,7 @@
       },
       "label": {
         "en": "polygon",
-        "nl": "Enter your translation here"
+        "nl": "veelhoek"
       }
     },
     {
@@ -417,7 +417,7 @@
       },
       "label": {
         "en": "roadAddress",
-        "nl": "Enter your translation here"
+        "nl": "straatadres"
       }
     },
     {
@@ -441,7 +441,7 @@
       },
       "label": {
         "en": "aViewOf",
-        "nl": "Enter your translation here"
+        "nl": "eenZichtOp"
       }
     },
     {
@@ -453,7 +453,7 @@
       },
       "label": {
         "en": "aViewOf",
-        "nl": "Enter your translation here"
+        "nl": "eenZichtOp"
       }
     },
     {
@@ -465,7 +465,7 @@
       },
       "label": {
         "en": "arrivalDayOffset",
-        "nl": "Enter your translation here"
+        "nl": "aankomstdagcompensatie"
       }
     },
     {
@@ -477,7 +477,7 @@
       },
       "label": {
         "en": "arrivalStop",
-        "nl": "Enter your translation here"
+        "nl": "aankomsthalte"
       }
     },
     {
@@ -489,7 +489,7 @@
       },
       "label": {
         "en": "arrivalTime",
-        "nl": "Enter your translation here"
+        "nl": "aankomsttijd"
       }
     },
     {
@@ -501,7 +501,7 @@
       },
       "label": {
         "en": "arrivalTime",
-        "nl": "Enter your translation here"
+        "nl": "aankomsttijd"
       }
     },
     {
@@ -513,7 +513,7 @@
       },
       "label": {
         "en": "at",
-        "nl": "Enter your translation here"
+        "nl": "bij"
       }
     },
     {
@@ -537,7 +537,7 @@
       },
       "label": {
         "en": "coveredBy",
-        "nl": "Enter your translation here"
+        "nl": "gedektDoor"
       }
     },
     {
@@ -549,7 +549,7 @@
       },
       "label": {
         "en": "departureDayOffset",
-        "nl": "Enter your translation here"
+        "nl": "vertrekdagcompensatie"
       }
     },
     {
@@ -561,7 +561,7 @@
       },
       "label": {
         "en": "departureStop",
-        "nl": "Enter your translation here"
+        "nl": "vertrekhalte"
       }
     },
     {
@@ -573,7 +573,7 @@
       },
       "label": {
         "en": "departureTime",
-        "nl": "Enter your translation here"
+        "nl": "vertrektijd"
       }
     },
     {
@@ -585,7 +585,7 @@
       },
       "label": {
         "en": "departureTime",
-        "nl": "Enter your translation here"
+        "nl": "vertrektijd"
       }
     },
     {
@@ -597,7 +597,7 @@
       },
       "label": {
         "en": "departureTime",
-        "nl": "Enter your translation here"
+        "nl": "vertrektijd"
       }
     },
     {
@@ -609,7 +609,7 @@
       },
       "label": {
         "en": "destinationDisplayRef",
-        "nl": "Enter your translation here"
+        "nl": "bestemmingWeergaveReferentie"
       }
     },
     {
@@ -617,11 +617,11 @@
       "EA-Guid": "{4BAF7D3E-D558-400c-9F88-69E4E4177F0F}",
       "definition": {
         "en": "TODO",
-        "nl": "Enter your translation here"
+        "nl": "bestemming"
       },
       "label": {
         "en": "directionRef",
-        "nl": "Enter your translation here"
+        "nl": "richtingReferentie"
       }
     },
     {
@@ -633,7 +633,7 @@
       },
       "label": {
         "en": "distance",
-        "nl": "Enter your translation here"
+        "nl": "afstand"
       }
     },
     {
@@ -645,7 +645,7 @@
       },
       "label": {
         "en": "endOf",
-        "nl": "Enter your translation here"
+        "nl": "EindeVan"
       }
     },
     {
@@ -657,7 +657,7 @@
       },
       "label": {
         "en": "endOf",
-        "nl": "Enter your translation here"
+        "nl": "EindeVan"
       }
     },
     {
@@ -853,7 +853,7 @@
       },
       "label": {
         "en": "forAlighting",
-        "nl": "Enter your translation here"
+        "nl": "Uitstappen"
       }
     },
     {
@@ -865,7 +865,7 @@
       },
       "label": {
         "en": "forAlighting",
-        "nl": "Enter your translation here"
+        "nl": "Uitstappen"
       }
     },
     {
@@ -877,7 +877,7 @@
       },
       "label": {
         "en": "forBoarding",
-        "nl": "Enter your translation here"
+        "nl": "Instappen"
       }
     },
     {
@@ -889,7 +889,7 @@
       },
       "label": {
         "en": "forBoarding",
-        "nl": "Enter your translation here"
+        "nl": "Instappen"
       }
     },
     {
@@ -901,7 +901,7 @@
       },
       "label": {
         "en": "from",
-        "nl": "Enter your translation here"
+        "nl": "van"
       }
     },
     {
@@ -913,7 +913,7 @@
       },
       "label": {
         "en": "from",
-        "nl": "Enter your translation here"
+        "nl": "van"
       }
     },
     {
@@ -925,7 +925,7 @@
       },
       "label": {
         "en": "line",
-        "nl": "Enter your translation here"
+        "nl": "lijn"
       }
     },
     {
@@ -937,7 +937,7 @@
       },
       "label": {
         "en": "madeUpOf",
-        "nl": "Enter your translation here"
+        "nl": "samengesteldUit"
       }
     },
     {
@@ -949,7 +949,7 @@
       },
       "label": {
         "en": "madeUpOf",
-        "nl": "Enter your translation here"
+        "nl": "samengesteldUit"
       }
     },
     {
@@ -961,7 +961,7 @@
       },
       "label": {
         "en": "madeUpOf",
-        "nl": "Enter your translation here"
+        "nl": "samengesteldUit"
       }
     },
     {
@@ -973,7 +973,7 @@
       },
       "label": {
         "en": "madeUpOf",
-        "nl": "Enter your translation here"
+        "nl": "samengesldUit"
       }
     },
     {
@@ -985,7 +985,7 @@
       },
       "label": {
         "en": "madeUsing",
-        "nl": "Enter your translation here"
+        "nl": "gemaaktMet"
       }
     },
     {
@@ -1009,7 +1009,7 @@
       },
       "label": {
         "en": "order",
-        "nl": "Enter your translation here"
+        "nl": "volgorde"
       }
     },
     {
@@ -1021,7 +1021,7 @@
       },
       "label": {
         "en": "order",
-        "nl": "Enter your translation here"
+        "nl": "volgorde"
       }
     },
     {
@@ -1033,7 +1033,7 @@
       },
       "label": {
         "en": "order",
-        "nl": "Enter your translation here"
+        "nl": "volgorde"
       }
     },
     {
@@ -1045,7 +1045,7 @@
       },
       "label": {
         "en": "passedAt",
-        "nl": "Enter your translation here"
+        "nl": "vorbijgegaanOm"
       }
     },
     {
@@ -1057,7 +1057,7 @@
       },
       "label": {
         "en": "publicCode",
-        "nl": "Enter your translation here"
+        "nl": "openbareCode"
       }
     },
     {
@@ -1069,7 +1069,7 @@
       },
       "label": {
         "en": "publicCode",
-        "nl": "Enter your translation here"
+        "nl": "openbareCode"
       }
     },
     {
@@ -1081,7 +1081,7 @@
       },
       "label": {
         "en": "quay",
-        "nl": "Enter your translation here"
+        "nl": "kade"
       }
     },
     {
@@ -1093,7 +1093,7 @@
       },
       "label": {
         "en": "serves",
-        "nl": "Enter your translation here"
+        "nl": "dienen"
       }
     },
     {
@@ -1105,7 +1105,7 @@
       },
       "label": {
         "en": "startOf",
-        "nl": "Enter your translation here"
+        "nl": "beginVan"
       }
     },
     {
@@ -1117,7 +1117,7 @@
       },
       "label": {
         "en": "startOf",
-        "nl": "Enter your translation here"
+        "nl": "beginVan"
       }
     },
     {
@@ -1129,7 +1129,7 @@
       },
       "label": {
         "en": "stopPlaceType",
-        "nl": "Enter your translation here"
+        "nl": "halteplaatsType"
       }
     },
     {
@@ -1141,7 +1141,7 @@
       },
       "label": {
         "en": "stopType",
-        "nl": "Enter your translation here"
+        "nl": "stopType"
       }
     },
     {
@@ -1153,7 +1153,7 @@
       },
       "label": {
         "en": "to",
-        "nl": "Enter your translation here"
+        "nl": "naar"
       }
     },
     {
@@ -1165,7 +1165,7 @@
       },
       "label": {
         "en": "to",
-        "nl": "Enter your translation here"
+        "nl": "naar"
       }
     },
     {
@@ -1201,7 +1201,7 @@
       },
       "label": {
         "en": "transportmode",
-        "nl": "Enter your translation here"
+        "nl": "transport modus"
       }
     },
     {
@@ -1213,7 +1213,7 @@
       },
       "label": {
         "en": "trough",
-        "nl": "Enter your translation here"
+        "nl": "door"
       }
     },
     {
@@ -1225,7 +1225,7 @@
       },
       "label": {
         "en": "viewedAs",
-        "nl": "Enter your translation here"
+        "nl": "gezienAls"
       }
     },
     {
@@ -1237,7 +1237,7 @@
       },
       "label": {
         "en": "viewedAs",
-        "nl": "Enter your translation here"
+        "nl": "gezienAls"
       }
     },
     {
@@ -1249,7 +1249,7 @@
       },
       "label": {
         "en": "viewedAs",
-        "nl": "Enter your translation here"
+        "nl": "gezienAls"
       }
     },
     {
