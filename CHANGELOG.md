@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Changed
+- StopPlaces AP: Apply PascalCase and CamelCase
+- StopPlaces AP: Replace http://schema.org with https://schema.org
+- StopPlaces AP: Replace abbreviations
+
 ## 2025-09-09
   - OSLO-DienstregelingEnPlanning-AP.EAP
     - diagram OSLO-Adresregister
