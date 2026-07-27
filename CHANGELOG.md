@@ -1,4 +1,13 @@
-2025-09-09
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## Unreleased
+
+## 2025-09-09
   - OSLO-DienstregelingEnPlanning-AP.EAP
     - diagram OSLO-Adresregister
       - 2025-09-09T10:46:50.017Z error: [AttributeConverterHandler]: Unable to determine the range for attribute (Model:Domain Model:OSLO-Adres:Postinfo:postnaam).
