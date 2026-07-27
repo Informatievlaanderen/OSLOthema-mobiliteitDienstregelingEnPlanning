@@ -11,6 +11,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - StopPlaces AP: Apply PascalCase and CamelCase
 - StopPlaces AP: Replace http://schema.org with https://schema.org
 - StopPlaces AP: Replace abbreviations
+- TimetablesAndPlanning VOC: Apply PascalCase and CamelCase
+- TimetablesAndPlanning VOC: Replace http://schema.org with https://schema.org
+- TimetablesAndPlanning VOC: Replace abbreviations
 
 ## 2025-09-09
   - OSLO-DienstregelingEnPlanning-AP.EAP
