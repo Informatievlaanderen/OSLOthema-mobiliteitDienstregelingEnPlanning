@@ -14,6 +14,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - TimetablesAndPlanning VOC: Apply PascalCase and CamelCase
 - TimetablesAndPlanning VOC: Replace http://schema.org with https://schema.org
 - TimetablesAndPlanning VOC: Replace abbreviations
+- Timetables AP: Apply PascalCase and CamelCase
+- Timetables AP: Replace http://schema.org with https://schema.org
+- Timetables AP: Replace abbreviations
 
 ## 2025-09-09
   - OSLO-DienstregelingEnPlanning-AP.EAP
