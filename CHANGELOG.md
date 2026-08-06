@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 - Timetables AP: Add LanguageString (datatype) to diagram
+- Timetables AP: Add Literal (datatype) to diagram
 
 ### Changed
 - StopPlaces AP: Apply PascalCase and CamelCase
