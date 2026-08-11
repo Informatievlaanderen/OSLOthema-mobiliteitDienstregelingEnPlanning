@@ -21,6 +21,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Timetables AP: Apply PascalCase and CamelCase
 - Timetables AP: Replace http://schema.org with https://schema.org
 - Timetables AP: Replace abbreviations
+- Timetables AP: Add missing values to definition-nl via translation of values in definition-en
+- Timetables AP: Add missing values to label-nl via translation of values in label-en
+
 
 ## 2025-09-09
   - OSLO-DienstregelingEnPlanning-AP.EAP
