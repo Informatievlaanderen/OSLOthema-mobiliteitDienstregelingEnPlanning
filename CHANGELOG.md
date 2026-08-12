@@ -23,6 +23,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Timetables AP: Replace abbreviations
 - Timetables AP: Add missing values to definition-nl via translation of values in definition-en
 - Timetables AP: Add missing values to label-nl via translation of values in label-en
+- Timetables AP: Replace https://www.w3.org/2001/XMLSchema# with http://www.w3.org/2001/XMLSchema#
 
 
 ## 2025-09-09
