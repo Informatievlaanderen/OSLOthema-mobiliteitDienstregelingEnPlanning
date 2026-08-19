@@ -10,6 +10,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Timetables AP: Add LanguageString (datatype) to diagram
 - Timetables AP: Add Literal (datatype) to diagram
+- Timetables AP: Add missing values to definition-nl via translation of values in definition-en
+- Timetables AP: Add missing values to label-nl via translation of values in label-en
+- StopPlaces AP: Add missing values to definition-nl via translation of values in definition-en
+- StopPlaces AP: Add missing values to label-nl via translation of values in label-en
 
 ### Changed
 - StopPlaces AP: Apply PascalCase and CamelCase
@@ -21,8 +25,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Timetables AP: Apply PascalCase and CamelCase
 - Timetables AP: Replace http://schema.org with https://schema.org
 - Timetables AP: Replace abbreviations
-- Timetables AP: Add missing values to definition-nl via translation of values in definition-en
-- Timetables AP: Add missing values to label-nl via translation of values in label-en
 - Timetables AP: Replace https://www.w3.org/2001/XMLSchema# with http://www.w3.org/2001/XMLSchema#
 
 
