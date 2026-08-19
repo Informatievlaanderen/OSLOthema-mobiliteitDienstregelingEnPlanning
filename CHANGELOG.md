@@ -17,6 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - StopPlaces AP: Add LanguageString (datatype) to diagram
 - StopPlaces AP: Add Literal (datatype) to diagram
 - StopPlaces AP: Add Adresvoorstelling (datatype) to diagram
+- StopPlaces AP: Add EN/NL labels and EN definition to Enum "OrganizationType"
 
 ### Changed
 - StopPlaces AP: Apply PascalCase and CamelCase
@@ -29,6 +30,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Timetables AP: Replace http://schema.org with https://schema.org
 - Timetables AP: Replace abbreviations
 - Timetables AP: Replace https://www.w3.org/2001/XMLSchema# with http://www.w3.org/2001/XMLSchema#
+- StopPlaces AP: Relink SiteComponent and Zone
 
 
 ## 2025-09-09
