@@ -10,14 +10,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Timetables AP: Add LanguageString (datatype) to diagram
 - Timetables AP: Add Literal (datatype) to diagram
-- Timetables AP: Add missing values to definition-nl via translation of values in definition-en
-- Timetables AP: Add missing values to label-nl via translation of values in label-en
-- StopPlaces AP: Add missing values to definition-nl via translation of values in definition-en
-- StopPlaces AP: Add missing values to label-nl via translation of values in label-en
+- Timetables AP: Add missing values to `definition-nl` via translation of values in `definition-en`
+- Timetables AP: Add missing values to `label-nl` via translation of values in `label-en`
+- StopPlaces AP: Add missing values to `definition-nl` via translation of values in `definition-en`
+- StopPlaces AP: Add missing values to `label-nl` via translation of values in `label-en`
 - StopPlaces AP: Add LanguageString (datatype) to diagram
 - StopPlaces AP: Add Literal (datatype) to diagram
 - StopPlaces AP: Add Adresvoorstelling (datatype) to diagram
-- StopPlaces AP: Add EN/NL labels and EN definition to Enum "OrganizationType"
+- StopPlaces AP: Add EN/NL labels and EN definition to "OrganizationType" (Enum)
+- StopPlaces AP: Add `ap-label-nl` to "OpeningHoursSpecification"
+- StopPlaces AP: Add `ap-label-nl` to "OpeningHoursSpecification.open"
+- StopPlaces AP: Add `ap-label-nl` to "OpeningHoursSpecification.closed"
+- StopPlaces AP: Add `ap-label-nl` to "OpeningHoursSpecification.validTo"
 
 ### Changed
 - StopPlaces AP: Apply PascalCase and CamelCase
