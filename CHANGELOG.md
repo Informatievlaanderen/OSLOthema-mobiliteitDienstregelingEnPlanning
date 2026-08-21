@@ -35,6 +35,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Timetables AP: Replace abbreviations
 - Timetables AP: Replace https://www.w3.org/2001/XMLSchema# with http://www.w3.org/2001/XMLSchema#
 - StopPlaces AP: Relink SiteComponent and Zone
+- VOC: Replace abbreviations
 
 
 ## 2025-09-09
