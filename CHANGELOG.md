@@ -42,6 +42,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - VehicleScheduling AP: Apply PascalCase and CamelCase
 - VehicleScheduling AP: Replace http://schema.org with https://schema.org
 - VehicleScheduling AP: Replace abbreviations
+- VehicleScheduling AP: Use dummy classes as parents
 
 
 ## 2025-09-09
