@@ -47,6 +47,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - VehicleScheduling AP: Replace abbreviations
 - VehicleScheduling AP: Use dummy classes as parents
 
+### Removed
+- VehicleScheduling AP: Remove AdresVoorstelling (datatype)
+
 
 ## 2025-09-09
   - OSLO-DienstregelingEnPlanning-AP.EAP
