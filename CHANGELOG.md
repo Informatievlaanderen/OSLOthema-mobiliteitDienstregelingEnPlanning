@@ -29,6 +29,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - VehicleScheduling AP: Add missing datatypes/enums to diagram
 - VehicleScheduling AP: Add dots at end of sentences
 - VehicleScheduling AP: Add NL tags to PointInLinkSequence
+- VehicleScheduling AP: Add `ap-label-nl` to OpeningHoursSpecification
 
 ### Changed
 - StopPlaces AP: Apply PascalCase and CamelCase
@@ -46,6 +47,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - VehicleScheduling AP: Replace http://schema.org with https://schema.org
 - VehicleScheduling AP: Replace abbreviations
 - VehicleScheduling AP: Use dummy classes as parents
+
+### Fixed
+- VehicleScheduling AP: VehicleJourney: Rit --> Voertuigrit
 
 ### Removed
 - VehicleScheduling AP: Remove AdresVoorstelling (datatype)
