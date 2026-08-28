@@ -28,6 +28,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - VehicleScheduling AP: Add missing values to label-nl via translation of values in label-en
 - VehicleScheduling AP: Add missing datatypes/enums to diagram
 - VehicleScheduling AP: Add dots at end of sentences
+- VehicleScheduling AP: Add NL tags to PointInLinkSequence
 
 ### Changed
 - StopPlaces AP: Apply PascalCase and CamelCase
