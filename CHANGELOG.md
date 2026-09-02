@@ -47,6 +47,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - VehicleScheduling AP: Replace http://schema.org with https://schema.org
 - VehicleScheduling AP: Replace abbreviations
 - VehicleScheduling AP: Use dummy classes as parents
+- VehicleScheduling AP: range of ContactInfo.address and Operator.address
 
 ### Fixed
 - VehicleScheduling AP: VehicleJourney: Rit --> Voertuigrit
