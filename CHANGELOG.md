@@ -24,6 +24,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - StopPlaces AP: Add `ap-label-nl` to "OpeningHoursSpecification.validTo"
 - TimetablesAndPlanning VOC: Add missing values to definition-nl via translation of values in definition-en
 - TimetablesAndPlanning VOC: Add missing values to label-nl via translation of values in label-en
+- TimetablesAndPlanning VOC: Add dots at end of sentences
 - VehicleScheduling AP: Add missing values to definition-nl via translation of values in definition-en
 - VehicleScheduling AP: Add missing values to label-nl via translation of values in label-en
 - VehicleScheduling AP: Add missing datatypes/enums to diagram
@@ -37,6 +38,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - StopPlaces AP: Replace abbreviations
 - TimetablesAndPlanning VOC: Apply PascalCase and CamelCase
 - TimetablesAndPlanning VOC: Replace http://schema.org with https://schema.org
+- TimetablesAndPlanning VOC: Replace https://www.w3.org/2001/XMLSchema# with http://www.w3.org/2001/XMLSchema#
 - TimetablesAndPlanning VOC: Replace abbreviations
 - Timetables AP: Apply PascalCase and CamelCase
 - Timetables AP: Replace http://schema.org with https://schema.org
@@ -55,6 +57,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Removed
 - VehicleScheduling AP: Remove AdresVoorstelling (datatype)
+- TimetablesAndPlanning VOC: Remove OpeningsurenSpecificatie
 
 
 ## 2025-09-09
