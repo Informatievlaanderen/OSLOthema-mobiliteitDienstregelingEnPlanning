@@ -1,4 +1,66 @@
-2025-09-09
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## Unreleased
+
+### Added
+- Timetables AP: Add LanguageString (datatype) to diagram
+- Timetables AP: Add Literal (datatype) to diagram
+- Timetables AP: Add missing values to `definition-nl` via translation of values in `definition-en`
+- Timetables AP: Add missing values to `label-nl` via translation of values in `label-en`
+- StopPlaces AP: Add missing values to `definition-nl` via translation of values in `definition-en`
+- StopPlaces AP: Add missing values to `label-nl` via translation of values in `label-en`
+- StopPlaces AP: Add LanguageString (datatype) to diagram
+- StopPlaces AP: Add Literal (datatype) to diagram
+- StopPlaces AP: Add Adresvoorstelling (datatype) to diagram
+- StopPlaces AP: Add EN/NL labels and EN definition to "OrganizationType" (Enum)
+- StopPlaces AP: Add `ap-label-nl` to "OpeningHoursSpecification"
+- StopPlaces AP: Add `ap-label-nl` to "OpeningHoursSpecification.open"
+- StopPlaces AP: Add `ap-label-nl` to "OpeningHoursSpecification.closed"
+- StopPlaces AP: Add `ap-label-nl` to "OpeningHoursSpecification.validTo"
+- TimetablesAndPlanning VOC: Add missing values to definition-nl via translation of values in definition-en
+- TimetablesAndPlanning VOC: Add missing values to label-nl via translation of values in label-en
+- TimetablesAndPlanning VOC: Add dots at end of sentences
+- VehicleScheduling AP: Add missing values to definition-nl via translation of values in definition-en
+- VehicleScheduling AP: Add missing values to label-nl via translation of values in label-en
+- VehicleScheduling AP: Add missing datatypes/enums to diagram
+- VehicleScheduling AP: Add dots at end of sentences
+- VehicleScheduling AP: Add NL tags to PointInLinkSequence
+- VehicleScheduling AP: Add `ap-label-nl` to OpeningHoursSpecification
+
+### Changed
+- StopPlaces AP: Apply PascalCase and CamelCase
+- StopPlaces AP: Replace http://schema.org with https://schema.org
+- StopPlaces AP: Replace abbreviations
+- TimetablesAndPlanning VOC: Apply PascalCase and CamelCase
+- TimetablesAndPlanning VOC: Replace http://schema.org with https://schema.org
+- TimetablesAndPlanning VOC: Replace https://www.w3.org/2001/XMLSchema# with http://www.w3.org/2001/XMLSchema#
+- TimetablesAndPlanning VOC: Replace abbreviations
+- Timetables AP: Apply PascalCase and CamelCase
+- Timetables AP: Replace http://schema.org with https://schema.org
+- Timetables AP: Replace abbreviations
+- Timetables AP: Replace https://www.w3.org/2001/XMLSchema# with http://www.w3.org/2001/XMLSchema#
+- StopPlaces AP: Relink SiteComponent and Zone
+- VehicleScheduling AP: Apply PascalCase and CamelCase
+- VehicleScheduling AP: Replace http://schema.org with https://schema.org
+- VehicleScheduling AP: Replace abbreviations
+- VehicleScheduling AP: Use dummy classes as parents
+- VehicleScheduling AP: range of ContactInfo.address and Operator.address
+- VehicleScheduling AP: Fix XSD URIs
+
+### Fixed
+- VehicleScheduling AP: VehicleJourney: Rit --> Voertuigrit
+
+### Removed
+- VehicleScheduling AP: Remove AdresVoorstelling (datatype)
+- TimetablesAndPlanning VOC: Remove OpeningsurenSpecificatie
+
+
+## 2025-09-09
   - OSLO-DienstregelingEnPlanning-AP.EAP
     - diagram OSLO-Adresregister
       - 2025-09-09T10:46:50.017Z error: [AttributeConverterHandler]: Unable to determine the range for attribute (Model:Domain Model:OSLO-Adres:Postinfo:postnaam).

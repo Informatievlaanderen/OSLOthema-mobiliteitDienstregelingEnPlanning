@@ -1,34 +1,34 @@
 [
-{
-  "name": "timetables-and-planning",
-  "prefix": "mobility",
-  "type": "voc",
-  "eap": "OSLO-TimetablesAndPlanning-VOC.EAP",
-  "diagram": "TimetablesAndPlanning",
-  "template": "TimetablesAndPlanning-en-voc.j2",
-  "title": "Timetables and Planning (Vocabulary)",
-  "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-  "publication-date": "2023-11-01",
-  "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
-  "contributors-file": "stakeholders.csv",
-  "contributors-column": "MijnKolom",
-  "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-mobiliteitDienstregelingEnPlanning/issues",
-  "standaardregisterurl": "https://purl.eu",
-  "translation" :[
-   {
-      "language":"en",
-      "template":"TimetablesAndPlanning-en-voc.j2",
-      "title": "Timetables and Planning (Vocabulary)",
-      "translationjson":"timetablesandplanning-voc_en.json",
-      "mergefile":"timetablesandplanning-voc_en_merged.jsonld"
-    },
-    {
-      "language":"nl",
-      "template":"TimetablesAndPlanning-nl-voc.j2",
-      "title": "Timetables and Planning (Vocabulary)",
-      "translationjson":"timetablesandplanning-voc_nl.json",
-      "mergefile":"timetablesandplanning-voc_nl_merged.jsonld"
-    }
-   ]
-}
+  {
+    "name": "timetables-and-planning",
+    "prefix": "mobility",
+    "type": "voc",
+    "eap": "OSLO-TimetablesAndPlanning-VOC.EAP",
+    "diagram": "TimetablesAndPlanning",
+    "template": "TimetablesAndPlanning-en-voc.j2",
+    "title": "Timetables and Planning (Vocabulary)",
+    "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "publication-date": "2023-11-01",
+    "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+    "contributors-file": "stakeholders.csv",
+    "contributors-column": "MijnKolom",
+    "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-mobiliteitDienstregelingEnPlanning/issues",
+    "standaardregisterurl": "https://purl.eu",
+    "translation": [
+      {
+        "language": "en",
+        "template": "TimetablesAndPlanning-en-voc.j2",
+        "title": "Timetables and Planning (Vocabulary)",
+        "translationjson": "timetablesandplanning-voc_en.json",
+        "mergefile": "timetablesandplanning-voc_en_merged.jsonld"
+      },
+      {
+        "language": "nl",
+        "template": "TimetablesAndPlanning-nl-voc.j2",
+        "title": "Timetables and Planning (Vocabulary)",
+        "translationjson": "timetablesandplanning-voc_nl.json",
+        "mergefile": "timetablesandplanning-voc_nl_merged.jsonld"
+      }
+    ]
+  }
 ]
